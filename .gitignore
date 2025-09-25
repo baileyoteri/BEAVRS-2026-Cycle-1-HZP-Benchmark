@@ -1,0 +1,5 @@
+# OpenMC output files
+*.out
+*.binary
+*.h5
+*.ppm
