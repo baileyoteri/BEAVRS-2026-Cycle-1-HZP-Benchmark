@@ -1,0 +1,1 @@
+Source code to build the BEAVRS benchmark reactor in OpenMC from https://github.com/mit-crpg/BEAVRS with edits made so that each individual test does not touch the source code itself but makes edits to the created XML files once they are created by BEAVRS. 
