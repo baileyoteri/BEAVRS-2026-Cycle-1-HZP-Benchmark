@@ -1,0 +1,713 @@
+Job has started!
+Cross-Section Library: LANL ENDF/B vii.1, Rod Configuration: ARO, Boron Concentration = 975 ppm, Other Notes: temperature set to 300 K, temp method interpolation
+                                %%%%%%%%%%%%%%%
+                           %%%%%%%%%%%%%%%%%%%%%%%%
+                        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                                    %%%%%%%%%%%%%%%%%%%%%%%%
+                                     %%%%%%%%%%%%%%%%%%%%%%%%
+                 ###############      %%%%%%%%%%%%%%%%%%%%%%%%
+                ##################     %%%%%%%%%%%%%%%%%%%%%%%
+                ###################     %%%%%%%%%%%%%%%%%%%%%%%
+                ####################     %%%%%%%%%%%%%%%%%%%%%%
+                #####################     %%%%%%%%%%%%%%%%%%%%%
+                ######################     %%%%%%%%%%%%%%%%%%%%
+                #######################     %%%%%%%%%%%%%%%%%%
+                 #######################     %%%%%%%%%%%%%%%%%
+                 ######################     %%%%%%%%%%%%%%%%%
+                  ####################     %%%%%%%%%%%%%%%%%
+                    #################     %%%%%%%%%%%%%%%%%
+                     ###############     %%%%%%%%%%%%%%%%
+                       ############     %%%%%%%%%%%%%%%
+                          ########     %%%%%%%%%%%%%%
+                                      %%%%%%%%%%%
+
+                 | The OpenMC Monte Carlo Code
+       Copyright | 2011-2025 MIT, UChicago Argonne LLC, and contributors
+         License | https://docs.openmc.org/en/latest/license.html
+         Version | 0.15.2
+     Commit Hash | e23760b0264c66fb7bb373aa0596801e5209d920
+       Date/Time | 2025-09-22 14:14:45
+  OpenMP Threads | 40
+
+ Reading settings XML file...
+ Reading cross sections XML file...
+ Reading materials XML file...
+ Reading geometry XML file...
+ Reading O16 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/O16.h5
+ Reading O17 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/O17.h5
+ Reading O18 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/O18.h5
+ Reading N14 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/N14.h5
+ Reading N15 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/N15.h5
+ Reading Ar36 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Ar36.h5
+ Reading Ar38 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Ar38.h5
+ Reading Ar40 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Ar40.h5
+ Reading C12 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/C12.h5
+ Reading C13 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/C13.h5
+ Reading Si28 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Si28.h5
+ Reading Si29 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Si29.h5
+ Reading Si30 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Si30.h5
+ Reading Cr50 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Cr50.h5
+ Reading Cr52 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Cr52.h5
+ Reading Cr53 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Cr53.h5
+ Reading Cr54 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Cr54.h5
+ Reading Mn55 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Mn55.h5
+ Reading Fe54 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Fe54.h5
+ Reading Fe56 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Fe56.h5
+ Reading Fe57 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Fe57.h5
+ Reading Fe58 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Fe58.h5
+ Reading Ni58 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Ni58.h5
+ Reading Ni60 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Ni60.h5
+ Reading Ni61 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Ni61.h5
+ Reading Ni62 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Ni62.h5
+ Reading Ni64 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Ni64.h5
+ Reading Ag107 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Ag107.h5
+ Reading Ag109 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Ag109.h5
+ Reading In113 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/In113.h5
+ Reading In115 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/In115.h5
+ Reading Cd106 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Cd106.h5
+ Reading Cd108 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Cd108.h5
+ Reading Cd110 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Cd110.h5
+ Reading Cd111 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Cd111.h5
+ Reading Cd112 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Cd112.h5
+ Reading Cd113 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Cd113.h5
+ Reading Cd114 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Cd114.h5
+ Reading Cd116 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Cd116.h5
+ Reading B10 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/B10.h5
+ Reading B11 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/B11.h5
+ Reading He3 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/He3.h5
+ Reading He4 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/He4.h5
+ Reading Zr90 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Zr90.h5
+ Reading Zr91 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Zr91.h5
+ Reading Zr92 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Zr92.h5
+ Reading Zr94 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Zr94.h5
+ Reading Zr96 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Zr96.h5
+ Reading Sn112 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Sn112.h5
+ Reading Sn114 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Sn114.h5
+ Reading Sn115 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Sn115.h5
+ Reading Sn116 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Sn116.h5
+ Reading Sn117 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Sn117.h5
+ Reading Sn118 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Sn118.h5
+ Reading Sn119 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Sn119.h5
+ Reading Sn120 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Sn120.h5
+ Reading Sn122 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Sn122.h5
+ Reading Sn124 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Sn124.h5
+ Reading P31 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/P31.h5
+ Reading S32 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/S32.h5
+ Reading S33 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/S33.h5
+ Reading S34 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/S34.h5
+ Reading S36 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/S36.h5
+ Reading Mo92 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Mo92.h5
+ Reading Mo94 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Mo94.h5
+ Reading Mo95 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Mo95.h5
+ Reading Mo96 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Mo96.h5
+ Reading Mo97 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Mo97.h5
+ Reading Mo98 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Mo98.h5
+ Reading Mo100 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Mo100.h5
+ Reading V50 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/V50.h5
+ Reading V51 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/V51.h5
+ Reading Nb93 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Nb93.h5
+ Reading Cu63 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Cu63.h5
+ Reading Cu65 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Cu65.h5
+ Reading Ca40 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Ca40.h5
+ Reading Ca42 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Ca42.h5
+ Reading Ca43 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Ca43.h5
+ Reading Ca44 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Ca44.h5
+ Reading Ca46 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Ca46.h5
+ Reading Ca48 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Ca48.h5
+ Reading Ti46 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Ti46.h5
+ Reading Ti47 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Ti47.h5
+ Reading Ti48 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Ti48.h5
+ Reading Ti49 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Ti49.h5
+ Reading Ti50 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Ti50.h5
+ Reading Al27 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/Al27.h5
+ Reading U234 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/U234.h5
+ Reading U235 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/U235.h5
+ Reading U238 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/U238.h5
+ Reading U236 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/U236.h5
+ Reading H1 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/H1.h5
+ Reading H2 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/H2.h5
+ Reading c_H_in_H2O from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/LANL-Based/mcnp_endfb
+ 71_Add_O18_C12_C13/c_H_in_H2O.h5
+ Minimum neutron data temperature: 294 K
+ Maximum neutron data temperature: 600 K
+ Preparing distributed cell instances...
+ Reading plot XML file...
+ Writing summary.h5 file...
+ Maximum neutron transport energy: 20000000 eV for O17
+ Initializing source particles...
+
+ ====================>     K EIGENVALUE SIMULATION     <====================
+
+  Bat./Gen.      k            Average k
+  =========   ========   ====================
+        1/1    0.84320
+        2/1    0.99232
+        3/1    1.00107
+        4/1    1.00578
+        5/1    1.00901
+        6/1    1.01010
+        7/1    1.01169
+        8/1    1.01175
+        9/1    1.01171
+       10/1    1.01318
+       11/1    1.01214
+       12/1    1.01393
+       13/1    1.01376
+       14/1    1.01344
+       15/1    1.01465
+       16/1    1.01363
+       17/1    1.01415
+       18/1    1.01640
+       19/1    1.01512
+       20/1    1.01511
+       21/1    1.01491
+       22/1    1.01477
+       23/1    1.01410
+       24/1    1.01538
+       25/1    1.01589
+       26/1    1.01504
+       27/1    1.01604
+       28/1    1.01542
+       29/1    1.01666
+       30/1    1.01604
+       31/1    1.01601
+       32/1    1.01601
+       33/1    1.01639
+       34/1    1.01701
+       35/1    1.01660
+       36/1    1.01641
+       37/1    1.01730
+       38/1    1.01536
+       39/1    1.01588
+       40/1    1.01618
+       41/1    1.01724
+       42/1    1.01672
+       43/1    1.01652
+       44/1    1.01654
+       45/1    1.01670
+       46/1    1.01669
+       47/1    1.01631
+       48/1    1.01638
+       49/1    1.01634
+       50/1    1.01703
+       51/1    1.01675
+       52/1    1.01618
+       53/1    1.01722
+       54/1    1.01701
+       55/1    1.01719
+       56/1    1.01667
+       57/1    1.01696
+       58/1    1.01592
+       59/1    1.01833
+       60/1    1.01809
+       61/1    1.01602
+       62/1    1.01635
+       63/1    1.01739
+       64/1    1.01755
+       65/1    1.01837
+       66/1    1.01705
+       67/1    1.01614
+       68/1    1.01774
+       69/1    1.01617
+       70/1    1.01697
+       71/1    1.01783
+       72/1    1.01800
+       73/1    1.01785
+       74/1    1.01840
+       75/1    1.01757
+       76/1    1.01633
+       77/1    1.01801
+       78/1    1.01849
+       79/1    1.01726
+       80/1    1.01648
+       81/1    1.01772
+       82/1    1.01764
+       83/1    1.01833
+       84/1    1.01763
+       85/1    1.01652
+       86/1    1.01714
+       87/1    1.01783
+       88/1    1.01678
+       89/1    1.01776
+       90/1    1.01611
+       91/1    1.01818
+       92/1    1.01709
+       93/1    1.01732
+       94/1    1.01805
+       95/1    1.01777
+       96/1    1.01761
+       97/1    1.01834
+       98/1    1.01662
+       99/1    1.01770
+      100/1    1.01849
+      101/1    1.01839
+      102/1    1.01736
+      103/1    1.01740
+      104/1    1.01731
+      105/1    1.01824
+      106/1    1.01785
+      107/1    1.01815
+      108/1    1.01746
+      109/1    1.01722
+      110/1    1.01830
+      111/1    1.01716
+      112/1    1.01806
+      113/1    1.01834
+      114/1    1.01661
+      115/1    1.01779
+      116/1    1.01743
+      117/1    1.01869
+      118/1    1.01591
+      119/1    1.01752
+      120/1    1.01765
+      121/1    1.01753
+      122/1    1.01715
+      123/1    1.01678
+      124/1    1.01839
+      125/1    1.01777
+      126/1    1.01802
+      127/1    1.01732
+      128/1    1.01692
+      129/1    1.01807
+      130/1    1.01768
+      131/1    1.01687
+      132/1    1.01682
+      133/1    1.01827
+      134/1    1.01772
+      135/1    1.01792
+      136/1    1.01751
+      137/1    1.01676
+      138/1    1.01823
+      139/1    1.01766
+      140/1    1.01829
+      141/1    1.01695
+      142/1    1.01965
+      143/1    1.01795
+      144/1    1.01787
+      145/1    1.01850
+      146/1    1.01836
+      147/1    1.01778
+      148/1    1.01787
+      149/1    1.01812
+      150/1    1.01727
+      151/1    1.01797
+      152/1    1.01747
+      153/1    1.01811
+      154/1    1.01747
+      155/1    1.01772
+      156/1    1.01773
+      157/1    1.01739
+      158/1    1.01702
+      159/1    1.01756
+      160/1    1.01804
+      161/1    1.01748
+      162/1    1.01824
+      163/1    1.01750
+      164/1    1.01821
+      165/1    1.01706
+      166/1    1.01758
+      167/1    1.01829
+      168/1    1.01703
+      169/1    1.01821
+      170/1    1.01822
+      171/1    1.01778
+      172/1    1.01776
+      173/1    1.01753
+      174/1    1.01684
+      175/1    1.01691
+      176/1    1.01837
+      177/1    1.01823
+      178/1    1.01919
+      179/1    1.01715
+      180/1    1.01688
+      181/1    1.01729
+      182/1    1.01779
+      183/1    1.01784
+      184/1    1.01911
+      185/1    1.01787
+      186/1    1.01740
+      187/1    1.01849
+      188/1    1.01843
+      189/1    1.01811
+      190/1    1.01881
+      191/1    1.01751
+      192/1    1.01807
+      193/1    1.01647
+      194/1    1.01782
+      195/1    1.01802
+      196/1    1.01744
+      197/1    1.01764
+      198/1    1.01797
+      199/1    1.01767
+      200/1    1.01763
+      201/1    1.01873
+      202/1    1.01839
+      203/1    1.01644
+      204/1    1.01779
+      205/1    1.01798
+      206/1    1.01802
+      207/1    1.01741
+      208/1    1.01777
+      209/1    1.01845
+      210/1    1.01850
+      211/1    1.01850
+      212/1    1.01913
+      213/1    1.01676
+      214/1    1.01680
+      215/1    1.01689
+      216/1    1.01867
+      217/1    1.01852
+      218/1    1.01839
+      219/1    1.01809
+      220/1    1.01862
+      221/1    1.01834
+      222/1    1.01813
+      223/1    1.01800
+      224/1    1.01825
+      225/1    1.01887
+      226/1    1.01726
+      227/1    1.01809
+      228/1    1.01671
+      229/1    1.01761
+      230/1    1.01791
+      231/1    1.01692
+      232/1    1.01836
+      233/1    1.01805
+      234/1    1.01684
+      235/1    1.01811
+      236/1    1.01774
+      237/1    1.01769
+      238/1    1.01728
+      239/1    1.01774
+      240/1    1.01704
+      241/1    1.01710
+      242/1    1.01799
+      243/1    1.01764
+      244/1    1.01730
+      245/1    1.01824
+      246/1    1.01833
+      247/1    1.01798
+      248/1    1.01745
+      249/1    1.01794
+      250/1    1.01701
+      251/1    1.01835
+      252/1    1.01810    1.01822 +/- 0.00013
+      253/1    1.01775    1.01806 +/- 0.00017
+      254/1    1.01733    1.01788 +/- 0.00022
+      255/1    1.01819    1.01794 +/- 0.00018
+      256/1    1.01828    1.01800 +/- 0.00016
+      257/1    1.01822    1.01803 +/- 0.00014
+      258/1    1.01670    1.01786 +/- 0.00021
+      259/1    1.01799    1.01788 +/- 0.00018
+      260/1    1.01801    1.01789 +/- 0.00016
+      261/1    1.01758    1.01786 +/- 0.00015
+      262/1    1.01670    1.01777 +/- 0.00017
+      263/1    1.01642    1.01766 +/- 0.00019
+      264/1    1.01785    1.01768 +/- 0.00017
+      265/1    1.01788    1.01769 +/- 0.00016
+      266/1    1.01863    1.01775 +/- 0.00016
+      267/1    1.01727    1.01772 +/- 0.00015
+      268/1    1.01799    1.01773 +/- 0.00015
+      269/1    1.01727    1.01771 +/- 0.00014
+      270/1    1.01816    1.01773 +/- 0.00014
+      271/1    1.01772    1.01773 +/- 0.00013
+      272/1    1.01711    1.01770 +/- 0.00013
+      273/1    1.01812    1.01772 +/- 0.00012
+      274/1    1.01752    1.01771 +/- 0.00012
+      275/1    1.01899    1.01776 +/- 0.00012
+      276/1    1.01889    1.01781 +/- 0.00013
+      277/1    1.01870    1.01784 +/- 0.00013
+      278/1    1.01702    1.01781 +/- 0.00012
+      279/1    1.01833    1.01783 +/- 0.00012
+      280/1    1.01878    1.01786 +/- 0.00012
+      281/1    1.01730    1.01784 +/- 0.00012
+      282/1    1.01824    1.01786 +/- 0.00012
+      283/1    1.01831    1.01787 +/- 0.00011
+      284/1    1.01808    1.01788 +/- 0.00011
+      285/1    1.01757    1.01787 +/- 0.00011
+      286/1    1.01809    1.01787 +/- 0.00010
+      287/1    1.01919    1.01791 +/- 0.00011
+      288/1    1.01777    1.01790 +/- 0.00010
+      289/1    1.01733    1.01789 +/- 0.00010
+      290/1    1.01738    1.01788 +/- 0.00010
+      291/1    1.01776    1.01787 +/- 0.00010
+      292/1    1.01870    1.01789 +/- 0.00010
+      293/1    1.01803    1.01790 +/- 0.00010
+      294/1    1.01752    1.01789 +/- 0.00009
+      295/1    1.01837    1.01790 +/- 0.00009
+      296/1    1.01697    1.01788 +/- 0.00009
+      297/1    1.01854    1.01789 +/- 0.00009
+      298/1    1.01752    1.01789 +/- 0.00009
+      299/1    1.01778    1.01788 +/- 0.00009
+      300/1    1.01701    1.01787 +/- 0.00009
+      301/1    1.01761    1.01786 +/- 0.00009
+      302/1    1.01776    1.01786 +/- 0.00009
+      303/1    1.01812    1.01786 +/- 0.00008
+      304/1    1.01676    1.01784 +/- 0.00008
+      305/1    1.01836    1.01785 +/- 0.00008
+      306/1    1.01637    1.01783 +/- 0.00009
+      307/1    1.01848    1.01784 +/- 0.00009
+      308/1    1.01795    1.01784 +/- 0.00008
+      309/1    1.01685    1.01782 +/- 0.00008
+      310/1    1.01831    1.01783 +/- 0.00008
+      311/1    1.01770    1.01783 +/- 0.00008
+      312/1    1.01786    1.01783 +/- 0.00008
+      313/1    1.01793    1.01783 +/- 0.00008
+      314/1    1.01849    1.01784 +/- 0.00008
+      315/1    1.01794    1.01784 +/- 0.00008
+      316/1    1.01757    1.01784 +/- 0.00008
+      317/1    1.01669    1.01782 +/- 0.00008
+      318/1    1.01902    1.01784 +/- 0.00008
+      319/1    1.01845    1.01785 +/- 0.00008
+      320/1    1.01786    1.01785 +/- 0.00008
+      321/1    1.01783    1.01785 +/- 0.00008
+      322/1    1.01713    1.01784 +/- 0.00007
+      323/1    1.01814    1.01784 +/- 0.00007
+      324/1    1.01768    1.01784 +/- 0.00007
+      325/1    1.01720    1.01783 +/- 0.00007
+      326/1    1.01790    1.01783 +/- 0.00007
+      327/1    1.01699    1.01782 +/- 0.00007
+      328/1    1.01794    1.01782 +/- 0.00007
+      329/1    1.01804    1.01783 +/- 0.00007
+      330/1    1.01836    1.01783 +/- 0.00007
+      331/1    1.01673    1.01782 +/- 0.00007
+      332/1    1.01755    1.01782 +/- 0.00007
+      333/1    1.01793    1.01782 +/- 0.00007
+      334/1    1.01897    1.01783 +/- 0.00007
+      335/1    1.01748    1.01783 +/- 0.00007
+      336/1    1.01721    1.01782 +/- 0.00007
+      337/1    1.01722    1.01781 +/- 0.00007
+      338/1    1.01785    1.01781 +/- 0.00007
+      339/1    1.01824    1.01782 +/- 0.00007
+      340/1    1.01767    1.01782 +/- 0.00007
+      341/1    1.01842    1.01782 +/- 0.00006
+      342/1    1.01816    1.01783 +/- 0.00006
+      343/1    1.01721    1.01782 +/- 0.00006
+      344/1    1.01758    1.01782 +/- 0.00006
+      345/1    1.01734    1.01781 +/- 0.00006
+      346/1    1.01838    1.01782 +/- 0.00006
+      347/1    1.01772    1.01782 +/- 0.00006
+      348/1    1.01746    1.01781 +/- 0.00006
+      349/1    1.01847    1.01782 +/- 0.00006
+      350/1    1.01760    1.01782 +/- 0.00006
+ Creating state point statepoint.350.h5...
+
+ =======================>     TIMING STATISTICS     <=======================
+
+ Total time for initialization     = 5.8040e+00 seconds
+   Reading cross sections          = 5.6637e+00 seconds
+ Total time in simulation          = 9.7525e+03 seconds
+   Time in transport only          = 9.5543e+03 seconds
+   Time in inactive batches        = 7.0375e+03 seconds
+   Time in active batches          = 2.7149e+03 seconds
+   Time synchronizing fission bank = 1.5495e+02 seconds
+     Sampling source sites         = 1.3927e+02 seconds
+     SEND/RECV source sites        = 1.5676e+01 seconds
+   Time accumulating tallies       = 2.0561e-04 seconds
+   Time writing statepoints        = 1.9151e-01 seconds
+ Total time for finalization       = 3.1720e-06 seconds
+ Total time elapsed                = 9.7591e+03 seconds
+ Calculation Rate (inactive)       = 142096 particles/second
+ Calculation Rate (active)         = 147333 particles/second
+
+ ============================>     RESULTS     <============================
+
+ k-effective (Collision)     = 1.01782 +/- 0.00006
+ k-effective (Track-length)  = 1.01782 +/- 0.00006
+ k-effective (Absorption)    = 1.01786 +/- 0.00005
+ Combined k-effective        = 1.01784 +/- 0.00004
+ Leakage Fraction            = 0.00003 +/- 0.00000
+
+=== OpenMC run started at: 14:14:44.625957 ===
+=== OpenMC run finished at: 2025-09-22 16:57:24.564637 ===
+Job has finished!
