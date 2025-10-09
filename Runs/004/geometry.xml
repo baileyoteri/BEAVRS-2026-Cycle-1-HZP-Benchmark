@@ -1,0 +1,1519 @@
+<?xml version='1.0' encoding='utf-8'?>
+<geometry>
+    <cell id="10000" material="10014" name="Water" universe="10000" />
+    <cell id="10001" material="10014" name="Intermediate grid pincell radial 0: Borated Water" region="10010 -10011 10012 -10013" universe="10001" />
+    <cell id="10002" material="10006" name="Intermediate grid pincell radial outer: Zircaloy 4" region="~(10010 -10011 10012 -10013)" universe="10001" />
+    <cell id="10003" material="10014" name="Top/Bottom grid pincell radial 0: Borated Water" region="10006 -10007 10008 -10009" universe="10002" />
+    <cell id="10004" material="10005" name="Top/Bottom grid pincell radial outer: Inconel 718" region="~(10006 -10007 10008 -10009)" universe="10002" />
+    <cell id="10005" material="10006" name="Intermediate grid sleeve pincell radial 0: Zircaloy 4" region="10014 -10015 10016 -10017" universe="10003" />
+    <cell id="10006" material="10014" name="Intermediate grid sleeve pincell radial outer: Borated Water" region="~(10014 -10015 10016 -10017)" universe="10003" />
+    <cell id="10007" material="10005" name="Top/Bottom grid sleeve pincell radial 0: Inconel 718" region="10014 -10015 10016 -10017" universe="10004" />
+    <cell id="10008" material="10014" name="Top/Bottom grid sleeve pincell radial outer: Borated Water" region="~(10014 -10015 10016 -10017)" universe="10004" />
+    <cell id="10009" material="10014" name="Grids axial universe axial 0: Borated Water" region="-10000" universe="10005" />
+    <cell id="10010" material="10015" name="Grids axial universe axial 1: Water SPN" region="-10003 10000" universe="10005" />
+    <cell id="10011" material="10014" name="Grids axial universe axial 2: Borated Water" region="-10018 10003" universe="10005" />
+    <cell fill="10002" id="10012" name="Grids axial universe axial 3: Top/Bottom grid pincell" region="-10019 10018" universe="10005" />
+    <cell id="10013" material="10014" name="Grids axial universe axial 4: Borated Water" region="-10020 10019" universe="10005" />
+    <cell fill="10001" id="10014" name="Grids axial universe axial 5: Intermediate grid pincell" region="-10021 10020" universe="10005" />
+    <cell id="10015" material="10014" name="Grids axial universe axial 6: Borated Water" region="-10022 10021" universe="10005" />
+    <cell fill="10001" id="10016" name="Grids axial universe axial 7: Intermediate grid pincell" region="-10023 10022" universe="10005" />
+    <cell id="10017" material="10014" name="Grids axial universe axial 8: Borated Water" region="-10024 10023" universe="10005" />
+    <cell fill="10001" id="10018" name="Grids axial universe axial 9: Intermediate grid pincell" region="-10025 10024" universe="10005" />
+    <cell id="10019" material="10014" name="Grids axial universe axial 10: Borated Water" region="-10026 10025" universe="10005" />
+    <cell fill="10001" id="10020" name="Grids axial universe axial 11: Intermediate grid pincell" region="-10027 10026" universe="10005" />
+    <cell id="10021" material="10014" name="Grids axial universe axial 12: Borated Water" region="-10028 10027" universe="10005" />
+    <cell fill="10001" id="10022" name="Grids axial universe axial 13: Intermediate grid pincell" region="-10029 10028" universe="10005" />
+    <cell id="10023" material="10014" name="Grids axial universe axial 14: Borated Water" region="-10030 10029" universe="10005" />
+    <cell fill="10001" id="10024" name="Grids axial universe axial 15: Intermediate grid pincell" region="-10031 10030" universe="10005" />
+    <cell id="10025" material="10014" name="Grids axial universe axial 16: Borated Water" region="-10032 10031" universe="10005" />
+    <cell fill="10002" id="10026" name="Grids axial universe axial 17: Top/Bottom grid pincell" region="-10033 10032" universe="10005" />
+    <cell id="10027" material="10014" name="Grids axial universe axial 18: Borated Water" region="-10004 10033" universe="10005" />
+    <cell id="10028" material="10015" name="Grids axial universe axial 19: Water SPN" region="-10005 10004" universe="10005" />
+    <cell id="10029" material="10014" name="Grids axial universe axial top: Borated Water" region="10005" universe="10005" />
+    <cell id="10030" material="10014" name="Grid sleeve axial universe axial 0: Borated Water" region="-10000" universe="10006" />
+    <cell id="10031" material="10015" name="Grid sleeve axial universe axial 1: Water SPN" region="-10003 10000" universe="10006" />
+    <cell id="10032" material="10014" name="Grid sleeve axial universe axial 2: Borated Water" region="-10018 10003" universe="10006" />
+    <cell fill="10004" id="10033" name="Grid sleeve axial universe axial 3: Top/Bottom grid sleeve pincell" region="-10019 10018" universe="10006" />
+    <cell id="10034" material="10014" name="Grid sleeve axial universe axial 4: Borated Water" region="-10020 10019" universe="10006" />
+    <cell fill="10003" id="10035" name="Grid sleeve axial universe axial 5: Intermediate grid sleeve pincell" region="-10021 10020" universe="10006" />
+    <cell id="10036" material="10014" name="Grid sleeve axial universe axial 6: Borated Water" region="-10022 10021" universe="10006" />
+    <cell fill="10003" id="10037" name="Grid sleeve axial universe axial 7: Intermediate grid sleeve pincell" region="-10023 10022" universe="10006" />
+    <cell id="10038" material="10014" name="Grid sleeve axial universe axial 8: Borated Water" region="-10024 10023" universe="10006" />
+    <cell fill="10003" id="10039" name="Grid sleeve axial universe axial 9: Intermediate grid sleeve pincell" region="-10025 10024" universe="10006" />
+    <cell id="10040" material="10014" name="Grid sleeve axial universe axial 10: Borated Water" region="-10026 10025" universe="10006" />
+    <cell fill="10003" id="10041" name="Grid sleeve axial universe axial 11: Intermediate grid sleeve pincell" region="-10027 10026" universe="10006" />
+    <cell id="10042" material="10014" name="Grid sleeve axial universe axial 12: Borated Water" region="-10028 10027" universe="10006" />
+    <cell fill="10003" id="10043" name="Grid sleeve axial universe axial 13: Intermediate grid sleeve pincell" region="-10029 10028" universe="10006" />
+    <cell id="10044" material="10014" name="Grid sleeve axial universe axial 14: Borated Water" region="-10030 10029" universe="10006" />
+    <cell fill="10003" id="10045" name="Grid sleeve axial universe axial 15: Intermediate grid sleeve pincell" region="-10031 10030" universe="10006" />
+    <cell id="10046" material="10014" name="Grid sleeve axial universe axial 16: Borated Water" region="-10032 10031" universe="10006" />
+    <cell fill="10004" id="10047" name="Grid sleeve axial universe axial 17: Top/Bottom grid sleeve pincell" region="-10033 10032" universe="10006" />
+    <cell id="10048" material="10014" name="Grid sleeve axial universe axial 18: Borated Water" region="-10004 10033" universe="10006" />
+    <cell id="10049" material="10015" name="Grid sleeve axial universe axial 19: Water SPN" region="-10005 10004" universe="10006" />
+    <cell id="10050" material="10014" name="Grid sleeve axial universe axial top: Borated Water" region="10005" universe="10006" />
+    <cell id="10051" material="10006" name="Fuel rod lower/upper fitting radial 0: Zircaloy 4" region="-10036" universe="10007" />
+    <cell id="10052" material="10014" name="Fuel rod lower/upper fitting radial outer: Borated Water" region="10036" universe="10007" />
+    <cell id="10053" material="10008" name="Fuel rod active region - 1.6% enr radial 0: Fuel 1.6%" region="-10034" universe="10008" />
+    <cell id="10054" material="10004" name="Fuel rod active region - 1.6% enr radial 1: Helium" region="10034 -10035" universe="10008" />
+    <cell id="10055" material="10006" name="Fuel rod active region - 1.6% enr radial 2: Zircaloy 4" region="10035 -10036" universe="10008" />
+    <cell id="10056" material="10014" name="Fuel rod active region - 1.6% enr radial outer: Borated Water" region="10036" universe="10008" />
+    <cell id="10057" material="10009" name="Fuel rod active region - 2.4% enr radial 0: Fuel 2.4%" region="-10034" universe="10009" />
+    <cell id="10058" material="10004" name="Fuel rod active region - 2.4% enr radial 1: Helium" region="10034 -10035" universe="10009" />
+    <cell id="10059" material="10006" name="Fuel rod active region - 2.4% enr radial 2: Zircaloy 4" region="10035 -10036" universe="10009" />
+    <cell id="10060" material="10014" name="Fuel rod active region - 2.4% enr radial outer: Borated Water" region="10036" universe="10009" />
+    <cell id="10061" material="10010" name="Fuel rod active region - 3.1% enr radial 0: Fuel 3.1%" region="-10034" universe="10010" />
+    <cell id="10062" material="10004" name="Fuel rod active region - 3.1% enr radial 1: Helium" region="10034 -10035" universe="10010" />
+    <cell id="10063" material="10006" name="Fuel rod active region - 3.1% enr radial 2: Zircaloy 4" region="10035 -10036" universe="10010" />
+    <cell id="10064" material="10014" name="Fuel rod active region - 3.1% enr radial outer: Borated Water" region="10036" universe="10010" />
+    <cell id="10073" material="10005" name="Fuel rod plenum radial 0: Inconel 718" region="-10037" universe="10013" />
+    <cell id="10074" material="10004" name="Fuel rod plenum radial 1: Helium" region="10037 -10035" universe="10013" />
+    <cell id="10075" material="10006" name="Fuel rod plenum radial 2: Zircaloy 4" region="10035 -10036" universe="10013" />
+    <cell id="10076" material="10014" name="Fuel rod plenum radial outer: Borated Water" region="10036" universe="10013" />
+    <cell id="10077" material="10014" name="Fuel rod - 1.6% enr axial 0: Borated Water" region="-10000" universe="10014" />
+    <cell id="10078" material="10016" name="Fuel rod - 1.6% enr axial 1: SS SPN" region="-10038 10000" universe="10014" />
+    <cell fill="10007" id="10079" name="Fuel rod - 1.6% enr axial 2: Fuel rod lower/upper fitting" region="-10039 10038" universe="10014" />
+    <cell fill="10008" id="10080" name="Fuel rod - 1.6% enr axial 3: Fuel rod active region - 1.6% enr" region="-10040 10039" universe="10014" />
+    <cell fill="10013" id="10081" name="Fuel rod - 1.6% enr axial 4: Fuel rod plenum" region="-10041 10040" universe="10014" />
+    <cell fill="10007" id="10082" name="Fuel rod - 1.6% enr axial 5: Fuel rod lower/upper fitting" region="-10042 10041" universe="10014" />
+    <cell id="10083" material="10014" name="Fuel rod - 1.6% enr axial 6: Borated Water" region="-10004 10042" universe="10014" />
+    <cell id="10084" material="10016" name="Fuel rod - 1.6% enr axial 7: SS SPN" region="-10005 10004" universe="10014" />
+    <cell id="10085" material="10014" name="Fuel rod - 1.6% enr axial top: Borated Water" region="10005" universe="10014" />
+    <cell fill="10014" id="10086" name="(Fuel rod - 1.6% enr) wrapped by (Grids axial universe) radial 0: Fuel rod - 1.6% enr" region="-10036" universe="10015" />
+    <cell fill="10005" id="10087" name="(Fuel rod - 1.6% enr) wrapped by (Grids axial universe) radial outer: Grids axial universe" region="10036" universe="10015" />
+    <cell id="10088" material="10014" name="Fuel rod - 2.4% enr axial 0: Borated Water" region="-10000" universe="10016" />
+    <cell id="10089" material="10016" name="Fuel rod - 2.4% enr axial 1: SS SPN" region="-10038 10000" universe="10016" />
+    <cell fill="10007" id="10090" name="Fuel rod - 2.4% enr axial 2: Fuel rod lower/upper fitting" region="-10039 10038" universe="10016" />
+    <cell fill="10009" id="10091" name="Fuel rod - 2.4% enr axial 3: Fuel rod active region - 2.4% enr" region="-10040 10039" universe="10016" />
+    <cell fill="10013" id="10092" name="Fuel rod - 2.4% enr axial 4: Fuel rod plenum" region="-10041 10040" universe="10016" />
+    <cell fill="10007" id="10093" name="Fuel rod - 2.4% enr axial 5: Fuel rod lower/upper fitting" region="-10042 10041" universe="10016" />
+    <cell id="10094" material="10014" name="Fuel rod - 2.4% enr axial 6: Borated Water" region="-10004 10042" universe="10016" />
+    <cell id="10095" material="10016" name="Fuel rod - 2.4% enr axial 7: SS SPN" region="-10005 10004" universe="10016" />
+    <cell id="10096" material="10014" name="Fuel rod - 2.4% enr axial top: Borated Water" region="10005" universe="10016" />
+    <cell fill="10016" id="10097" name="(Fuel rod - 2.4% enr) wrapped by (Grids axial universe) radial 0: Fuel rod - 2.4% enr" region="-10036" universe="10017" />
+    <cell fill="10005" id="10098" name="(Fuel rod - 2.4% enr) wrapped by (Grids axial universe) radial outer: Grids axial universe" region="10036" universe="10017" />
+    <cell id="10099" material="10014" name="Fuel rod - 3.1% enr axial 0: Borated Water" region="-10000" universe="10018" />
+    <cell id="10100" material="10016" name="Fuel rod - 3.1% enr axial 1: SS SPN" region="-10038 10000" universe="10018" />
+    <cell fill="10007" id="10101" name="Fuel rod - 3.1% enr axial 2: Fuel rod lower/upper fitting" region="-10039 10038" universe="10018" />
+    <cell fill="10010" id="10102" name="Fuel rod - 3.1% enr axial 3: Fuel rod active region - 3.1% enr" region="-10040 10039" universe="10018" />
+    <cell fill="10013" id="10103" name="Fuel rod - 3.1% enr axial 4: Fuel rod plenum" region="-10041 10040" universe="10018" />
+    <cell fill="10007" id="10104" name="Fuel rod - 3.1% enr axial 5: Fuel rod lower/upper fitting" region="-10042 10041" universe="10018" />
+    <cell id="10105" material="10014" name="Fuel rod - 3.1% enr axial 6: Borated Water" region="-10004 10042" universe="10018" />
+    <cell id="10106" material="10016" name="Fuel rod - 3.1% enr axial 7: SS SPN" region="-10005 10004" universe="10018" />
+    <cell id="10107" material="10014" name="Fuel rod - 3.1% enr axial top: Borated Water" region="10005" universe="10018" />
+    <cell fill="10018" id="10108" name="(Fuel rod - 3.1% enr) wrapped by (Grids axial universe) radial 0: Fuel rod - 3.1% enr" region="-10036" universe="10019" />
+    <cell fill="10005" id="10109" name="(Fuel rod - 3.1% enr) wrapped by (Grids axial universe) radial outer: Grids axial universe" region="10036" universe="10019" />
+    <cell id="10132" material="10014" name="Empty GT below the dashpot radial 0: Borated Water" region="-10045" universe="10024" />
+    <cell id="10133" material="10006" name="Empty GT below the dashpot radial 1: Zircaloy 4" region="10045 -10046" universe="10024" />
+    <cell id="10134" material="10014" name="Empty GT below the dashpot radial outer: Borated Water" region="10046" universe="10024" />
+    <cell id="10135" material="10014" name="Empty GT above the dashpot radial 0: Borated Water" region="-10043" universe="10025" />
+    <cell id="10136" material="10006" name="Empty GT above the dashpot radial 1: Zircaloy 4" region="10043 -10044" universe="10025" />
+    <cell id="10137" material="10014" name="Empty GT above the dashpot radial outer: Borated Water" region="10044" universe="10025" />
+    <cell id="10138" material="10014" name="Empty Guide Tube axial 0: Borated Water" region="-10000" universe="10026" />
+    <cell id="10139" material="10015" name="Empty Guide Tube axial 1: Water SPN" region="-10047 10000" universe="10026" />
+    <cell fill="10024" id="10140" name="Empty Guide Tube axial 2: Empty GT below the dashpot" region="-10048 10047" universe="10026" />
+    <cell fill="10025" id="10141" name="Empty Guide Tube axial 3: Empty GT above the dashpot" region="-10049 10048" universe="10026" />
+    <cell id="10142" material="10015" name="Empty Guide Tube axial 4: Water SPN" region="-10005 10049" universe="10026" />
+    <cell id="10143" material="10014" name="Empty Guide Tube axial top: Borated Water" region="10005" universe="10026" />
+    <cell fill="10026" id="10144" name="(Empty Guide Tube) wrapped by (Grids axial universe) radial 0: Empty Guide Tube" region="-10044" universe="10027" />
+    <cell fill="10005" id="10145" name="(Empty Guide Tube) wrapped by (Grids axial universe) radial outer: Grids axial universe" region="10044" universe="10027" />
+    <cell id="10146" material="10014" name="Empty Guide Tube in Center Position axial 0: Borated Water" region="-10000" universe="10028" />
+    <cell id="10147" material="10015" name="Empty Guide Tube in Center Position axial 1: Water SPN" region="-10047 10000" universe="10028" />
+    <cell fill="10025" id="10148" name="Empty Guide Tube in Center Position axial 2: Empty GT above the dashpot" region="-10049 10047" universe="10028" />
+    <cell id="10149" material="10015" name="Empty Guide Tube in Center Position axial 3: Water SPN" region="-10005 10049" universe="10028" />
+    <cell id="10150" material="10014" name="Empty Guide Tube in Center Position axial top: Borated Water" region="10005" universe="10028" />
+    <cell fill="10028" id="10151" name="(Empty Guide Tube in Center Position) wrapped by (Grids axial universe) radial 0: Empty Guide Tube in Center Position" region="-10044" universe="10029" />
+    <cell fill="10005" id="10152" name="(Empty Guide Tube in Center Position) wrapped by (Grids axial universe) radial outer: Grids axial universe" region="10044" universe="10029" />
+    <cell id="10153" material="10000" name="Instrument tube thimble radial 0: Air" region="-10050" universe="10030" />
+    <cell id="10154" material="10006" name="Instrument tube thimble radial 1: Zircaloy 4" region="10050 -10051" universe="10030" />
+    <cell id="10155" material="10014" name="Instrument tube thimble radial outer: Borated Water" region="10051" universe="10030" />
+    <cell id="10156" material="10000" name="Instrument tube thimble support plane radial 0: Air" region="-10050" universe="10031" />
+    <cell id="10157" material="10006" name="Instrument tube thimble support plane radial 1: Zircaloy 4" region="10050 -10051" universe="10031" />
+    <cell id="10158" material="10015" name="Instrument tube thimble support plane radial outer: Water SPN" region="10051" universe="10031" />
+    <cell fill="10030" id="10159" name="Instrument tube axial stack axial 0: Instrument tube thimble" region="-10000" universe="10032" />
+    <cell fill="10031" id="10160" name="Instrument tube axial stack axial 1: Instrument tube thimble support plane" region="-10038 10000" universe="10032" />
+    <cell fill="10030" id="10161" name="Instrument tube axial stack axial 2: Instrument tube thimble" region="-10004 10038" universe="10032" />
+    <cell id="10162" material="10015" name="Instrument tube axial stack axial 3: Water SPN" region="-10005 10004" universe="10032" />
+    <cell id="10163" material="10014" name="Instrument tube axial stack axial top: Borated Water" region="10005" universe="10032" />
+    <cell fill="10032" id="10164" name="(Instrument tube axial stack) wrapped by ((Empty Guide Tube in Center Position) wrapped by (Grids axial universe)) radial 0: Instrument tube axial stack" region="-10051" universe="10033" />
+    <cell fill="10029" id="10165" name="(Instrument tube axial stack) wrapped by ((Empty Guide Tube in Center Position) wrapped by (Grids axial universe)) radial outer: (Empty Guide Tube in Center Position) wrapped by (Grids axial universe)" region="10051" universe="10033" />
+    <cell id="10166" material="10001" name="BPRA rod lower/upper fitting radial 0: SS304" region="-10057" universe="10034" />
+    <cell id="10167" material="10014" name="BPRA rod lower/upper fitting radial outer: Borated Water" region="10057" universe="10034" />
+    <cell id="10168" material="10000" name="BPRA rod active poison radial 0: Air" region="-10052" universe="10035" />
+    <cell id="10169" material="10001" name="BPRA rod active poison radial 1: SS304" region="10052 -10053" universe="10035" />
+    <cell id="10170" material="10000" name="BPRA rod active poison radial 2: Air" region="10053 -10054" universe="10035" />
+    <cell id="10171" material="10013" name="BPRA rod active poison radial 3: Borosilicate Glass" region="10054 -10055" universe="10035" />
+    <cell id="10172" material="10000" name="BPRA rod active poison radial 4: Air" region="10055 -10056" universe="10035" />
+    <cell id="10173" material="10001" name="BPRA rod active poison radial 5: SS304" region="10056 -10057" universe="10035" />
+    <cell id="10174" material="10014" name="BPRA rod active poison radial outer: Borated Water" region="10057" universe="10035" />
+    <cell id="10175" material="10000" name="BPRA rod plenum radial 0: Air" region="-10052" universe="10036" />
+    <cell id="10176" material="10001" name="BPRA rod plenum radial 1: SS304" region="10052 -10053" universe="10036" />
+    <cell id="10177" material="10000" name="BPRA rod plenum radial 2: Air" region="10053 -10056" universe="10036" />
+    <cell id="10178" material="10001" name="BPRA rod plenum radial 3: SS304" region="10056 -10057" universe="10036" />
+    <cell id="10179" material="10014" name="BPRA rod plenum radial outer: Borated Water" region="10057" universe="10036" />
+    <cell id="10180" material="10014" name="BPRA rod axial 0: Borated Water" region="-10000" universe="10037" />
+    <cell id="10181" material="10015" name="BPRA rod axial 1: Water SPN" region="-10003 10000" universe="10037" />
+    <cell id="10182" material="10014" name="BPRA rod axial 2: Borated Water" region="-10058 10003" universe="10037" />
+    <cell fill="10034" id="10183" name="BPRA rod axial 3: BPRA rod lower/upper fitting" region="-10059 10058" universe="10037" />
+    <cell fill="10035" id="10184" name="BPRA rod axial 4: BPRA rod active poison" region="-10060 10059" universe="10037" />
+    <cell fill="10036" id="10185" name="BPRA rod axial 5: BPRA rod plenum" region="-10061 10060" universe="10037" />
+    <cell fill="10034" id="10186" name="BPRA rod axial 6: BPRA rod lower/upper fitting" region="-10062 10061" universe="10037" />
+    <cell id="10187" material="10014" name="BPRA rod axial top: Borated Water" region="10062" universe="10037" />
+    <cell fill="10037" id="10188" name="(BPRA rod) wrapped by ((Empty Guide Tube) wrapped by (Grids axial universe)) radial 0: BPRA rod" region="-10057" universe="10038" />
+    <cell fill="10027" id="10189" name="(BPRA rod) wrapped by ((Empty Guide Tube) wrapped by (Grids axial universe)) radial outer: (Empty Guide Tube) wrapped by (Grids axial universe)" region="10057" universe="10038" />
+    <cell id="10190" material="10001" name="RCCA rod cap radial 0: SS304" region="-10064" universe="10039" />
+    <cell id="10191" material="10014" name="RCCA rod cap radial outer: Borated Water" region="10064" universe="10039" />
+    <cell id="10192" material="10005" name="RCCA plenum radial 0: Inconel 718" region="-10068" universe="10040" />
+    <cell id="10193" material="10000" name="RCCA plenum radial 1: Air" region="10068 -10063" universe="10040" />
+    <cell id="10194" material="10006" name="RCCA plenum radial 2: Zircaloy 4" region="10063 -10064" universe="10040" />
+    <cell id="10195" material="10014" name="RCCA plenum radial outer: Borated Water" region="10064" universe="10040" />
+    <cell id="10196" material="10002" name="RCCA AIC radial 0: Ag-In-Cd" region="-10066" universe="10041" />
+    <cell id="10197" material="10000" name="RCCA AIC radial 1: Air" region="10066 -10063" universe="10041" />
+    <cell id="10198" material="10006" name="RCCA AIC radial 2: Zircaloy 4" region="10063 -10064" universe="10041" />
+    <cell id="10199" material="10014" name="RCCA AIC radial outer: Borated Water" region="10064" universe="10041" />
+    <cell id="10200" material="10003" name="RCCA B4C radial 0: B4C" region="-10065" universe="10042" />
+    <cell id="10201" material="10000" name="RCCA B4C radial 1: Air" region="10065 -10063" universe="10042" />
+    <cell id="10202" material="10006" name="RCCA B4C radial 2: Zircaloy 4" region="10063 -10064" universe="10042" />
+    <cell id="10203" material="10014" name="RCCA B4C radial outer: Borated Water" region="10064" universe="10042" />
+    <cell id="10204" material="10001" name="RCCA Spacer radial 0: SS304" region="-10067" universe="10043" />
+    <cell id="10205" material="10000" name="RCCA Spacer radial 1: Air" region="10067 -10063" universe="10043" />
+    <cell id="10206" material="10006" name="RCCA Spacer radial 2: Zircaloy 4" region="10063 -10064" universe="10043" />
+    <cell id="10207" material="10014" name="RCCA Spacer radial outer: Borated Water" region="10064" universe="10043" />
+    <cell id="10208" material="10014" name="RCCA bank A axial 0: Borated Water" region="-10000" universe="10044" />
+    <cell id="10209" material="10015" name="RCCA bank A axial 1: Water SPN" region="-10003 10000" universe="10044" />
+    <cell id="10210" material="10014" name="RCCA bank A axial 2: Borated Water" region="-10069 10003" universe="10044" />
+    <cell fill="10039" id="10211" name="RCCA bank A axial 3: RCCA rod cap" region="-10070 10069" universe="10044" />
+    <cell fill="10041" id="10212" name="RCCA bank A axial 4: RCCA AIC" region="-10071 10070" universe="10044" />
+    <cell fill="10042" id="10213" name="RCCA bank A axial 5: RCCA B4C" region="-10072 10071" universe="10044" />
+    <cell fill="10043" id="10214" name="RCCA bank A axial 6: RCCA Spacer" region="-10073 10072" universe="10044" />
+    <cell fill="10040" id="10215" name="RCCA bank A axial 7: RCCA plenum" region="-10074 10073" universe="10044" />
+    <cell fill="10039" id="10216" name="RCCA bank A axial top: RCCA rod cap" region="10074" universe="10044" />
+    <cell fill="10044" id="10217" name="(RCCA bank A) wrapped by ((Empty Guide Tube) wrapped by (Grids axial universe)) radial 0: RCCA bank A" region="-10064" universe="10045" />
+    <cell fill="10027" id="10218" name="(RCCA bank A) wrapped by ((Empty Guide Tube) wrapped by (Grids axial universe)) radial outer: (Empty Guide Tube) wrapped by (Grids axial universe)" region="10064" universe="10045" />
+    <cell id="10219" material="10014" name="RCCA bank B axial 0: Borated Water" region="-10000" universe="10046" />
+    <cell id="10220" material="10015" name="RCCA bank B axial 1: Water SPN" region="-10003 10000" universe="10046" />
+    <cell id="10221" material="10014" name="RCCA bank B axial 2: Borated Water" region="-10075 10003" universe="10046" />
+    <cell fill="10039" id="10222" name="RCCA bank B axial 3: RCCA rod cap" region="-10076 10075" universe="10046" />
+    <cell fill="10041" id="10223" name="RCCA bank B axial 4: RCCA AIC" region="-10077 10076" universe="10046" />
+    <cell fill="10042" id="10224" name="RCCA bank B axial 5: RCCA B4C" region="-10078 10077" universe="10046" />
+    <cell fill="10043" id="10225" name="RCCA bank B axial 6: RCCA Spacer" region="-10079 10078" universe="10046" />
+    <cell fill="10040" id="10226" name="RCCA bank B axial 7: RCCA plenum" region="-10080 10079" universe="10046" />
+    <cell fill="10039" id="10227" name="RCCA bank B axial top: RCCA rod cap" region="10080" universe="10046" />
+    <cell fill="10046" id="10228" name="(RCCA bank B) wrapped by ((Empty Guide Tube) wrapped by (Grids axial universe)) radial 0: RCCA bank B" region="-10064" universe="10047" />
+    <cell fill="10027" id="10229" name="(RCCA bank B) wrapped by ((Empty Guide Tube) wrapped by (Grids axial universe)) radial outer: (Empty Guide Tube) wrapped by (Grids axial universe)" region="10064" universe="10047" />
+    <cell id="10230" material="10014" name="RCCA bank C axial 0: Borated Water" region="-10000" universe="10048" />
+    <cell id="10231" material="10015" name="RCCA bank C axial 1: Water SPN" region="-10003 10000" universe="10048" />
+    <cell id="10232" material="10014" name="RCCA bank C axial 2: Borated Water" region="-10081 10003" universe="10048" />
+    <cell fill="10039" id="10233" name="RCCA bank C axial 3: RCCA rod cap" region="-10082 10081" universe="10048" />
+    <cell fill="10041" id="10234" name="RCCA bank C axial 4: RCCA AIC" region="-10083 10082" universe="10048" />
+    <cell fill="10042" id="10235" name="RCCA bank C axial 5: RCCA B4C" region="-10084 10083" universe="10048" />
+    <cell fill="10043" id="10236" name="RCCA bank C axial 6: RCCA Spacer" region="-10085 10084" universe="10048" />
+    <cell fill="10040" id="10237" name="RCCA bank C axial 7: RCCA plenum" region="-10086 10085" universe="10048" />
+    <cell fill="10039" id="10238" name="RCCA bank C axial top: RCCA rod cap" region="10086" universe="10048" />
+    <cell fill="10048" id="10239" name="(RCCA bank C) wrapped by ((Empty Guide Tube) wrapped by (Grids axial universe)) radial 0: RCCA bank C" region="-10064" universe="10049" />
+    <cell fill="10027" id="10240" name="(RCCA bank C) wrapped by ((Empty Guide Tube) wrapped by (Grids axial universe)) radial outer: (Empty Guide Tube) wrapped by (Grids axial universe)" region="10064" universe="10049" />
+    <cell id="10241" material="10014" name="RCCA bank D axial 0: Borated Water" region="-10000" universe="10050" />
+    <cell id="10242" material="10015" name="RCCA bank D axial 1: Water SPN" region="-10003 10000" universe="10050" />
+    <cell id="10243" material="10014" name="RCCA bank D axial 2: Borated Water" region="-10087 10003" universe="10050" />
+    <cell fill="10039" id="10244" name="RCCA bank D axial 3: RCCA rod cap" region="-10088 10087" universe="10050" />
+    <cell fill="10041" id="10245" name="RCCA bank D axial 4: RCCA AIC" region="-10089 10088" universe="10050" />
+    <cell fill="10042" id="10246" name="RCCA bank D axial 5: RCCA B4C" region="-10090 10089" universe="10050" />
+    <cell fill="10043" id="10247" name="RCCA bank D axial 6: RCCA Spacer" region="-10091 10090" universe="10050" />
+    <cell fill="10040" id="10248" name="RCCA bank D axial 7: RCCA plenum" region="-10092 10091" universe="10050" />
+    <cell fill="10039" id="10249" name="RCCA bank D axial top: RCCA rod cap" region="10092" universe="10050" />
+    <cell fill="10050" id="10250" name="(RCCA bank D) wrapped by ((Empty Guide Tube) wrapped by (Grids axial universe)) radial 0: RCCA bank D" region="-10064" universe="10051" />
+    <cell fill="10027" id="10251" name="(RCCA bank D) wrapped by ((Empty Guide Tube) wrapped by (Grids axial universe)) radial outer: (Empty Guide Tube) wrapped by (Grids axial universe)" region="10064" universe="10051" />
+    <cell id="10252" material="10014" name="RCCA bank SA axial 0: Borated Water" region="-10000" universe="10052" />
+    <cell id="10253" material="10015" name="RCCA bank SA axial 1: Water SPN" region="-10003 10000" universe="10052" />
+    <cell id="10254" material="10014" name="RCCA bank SA axial 2: Borated Water" region="-10093 10003" universe="10052" />
+    <cell fill="10039" id="10255" name="RCCA bank SA axial 3: RCCA rod cap" region="-10094 10093" universe="10052" />
+    <cell fill="10041" id="10256" name="RCCA bank SA axial 4: RCCA AIC" region="-10095 10094" universe="10052" />
+    <cell fill="10042" id="10257" name="RCCA bank SA axial 5: RCCA B4C" region="-10096 10095" universe="10052" />
+    <cell fill="10043" id="10258" name="RCCA bank SA axial 6: RCCA Spacer" region="-10097 10096" universe="10052" />
+    <cell fill="10040" id="10259" name="RCCA bank SA axial 7: RCCA plenum" region="-10098 10097" universe="10052" />
+    <cell fill="10039" id="10260" name="RCCA bank SA axial top: RCCA rod cap" region="10098" universe="10052" />
+    <cell fill="10052" id="10261" name="(RCCA bank SA) wrapped by ((Empty Guide Tube) wrapped by (Grids axial universe)) radial 0: RCCA bank SA" region="-10064" universe="10053" />
+    <cell fill="10027" id="10262" name="(RCCA bank SA) wrapped by ((Empty Guide Tube) wrapped by (Grids axial universe)) radial outer: (Empty Guide Tube) wrapped by (Grids axial universe)" region="10064" universe="10053" />
+    <cell id="10263" material="10014" name="RCCA bank SB axial 0: Borated Water" region="-10000" universe="10054" />
+    <cell id="10264" material="10015" name="RCCA bank SB axial 1: Water SPN" region="-10003 10000" universe="10054" />
+    <cell id="10265" material="10014" name="RCCA bank SB axial 2: Borated Water" region="-10099 10003" universe="10054" />
+    <cell fill="10039" id="10266" name="RCCA bank SB axial 3: RCCA rod cap" region="-10100 10099" universe="10054" />
+    <cell fill="10041" id="10267" name="RCCA bank SB axial 4: RCCA AIC" region="-10101 10100" universe="10054" />
+    <cell fill="10042" id="10268" name="RCCA bank SB axial 5: RCCA B4C" region="-10102 10101" universe="10054" />
+    <cell fill="10043" id="10269" name="RCCA bank SB axial 6: RCCA Spacer" region="-10103 10102" universe="10054" />
+    <cell fill="10040" id="10270" name="RCCA bank SB axial 7: RCCA plenum" region="-10104 10103" universe="10054" />
+    <cell fill="10039" id="10271" name="RCCA bank SB axial top: RCCA rod cap" region="10104" universe="10054" />
+    <cell fill="10054" id="10272" name="(RCCA bank SB) wrapped by ((Empty Guide Tube) wrapped by (Grids axial universe)) radial 0: RCCA bank SB" region="-10064" universe="10055" />
+    <cell fill="10027" id="10273" name="(RCCA bank SB) wrapped by ((Empty Guide Tube) wrapped by (Grids axial universe)) radial outer: (Empty Guide Tube) wrapped by (Grids axial universe)" region="10064" universe="10055" />
+    <cell id="10274" material="10014" name="RCCA bank SC axial 0: Borated Water" region="-10000" universe="10056" />
+    <cell id="10275" material="10015" name="RCCA bank SC axial 1: Water SPN" region="-10003 10000" universe="10056" />
+    <cell id="10276" material="10014" name="RCCA bank SC axial 2: Borated Water" region="-10105 10003" universe="10056" />
+    <cell fill="10039" id="10277" name="RCCA bank SC axial 3: RCCA rod cap" region="-10106 10105" universe="10056" />
+    <cell fill="10041" id="10278" name="RCCA bank SC axial 4: RCCA AIC" region="-10107 10106" universe="10056" />
+    <cell fill="10042" id="10279" name="RCCA bank SC axial 5: RCCA B4C" region="-10108 10107" universe="10056" />
+    <cell fill="10043" id="10280" name="RCCA bank SC axial 6: RCCA Spacer" region="-10109 10108" universe="10056" />
+    <cell fill="10040" id="10281" name="RCCA bank SC axial 7: RCCA plenum" region="-10110 10109" universe="10056" />
+    <cell fill="10039" id="10282" name="RCCA bank SC axial top: RCCA rod cap" region="10110" universe="10056" />
+    <cell fill="10056" id="10283" name="(RCCA bank SC) wrapped by ((Empty Guide Tube) wrapped by (Grids axial universe)) radial 0: RCCA bank SC" region="-10064" universe="10057" />
+    <cell fill="10027" id="10284" name="(RCCA bank SC) wrapped by ((Empty Guide Tube) wrapped by (Grids axial universe)) radial outer: (Empty Guide Tube) wrapped by (Grids axial universe)" region="10064" universe="10057" />
+    <cell id="10285" material="10014" name="RCCA bank SD axial 0: Borated Water" region="-10000" universe="10058" />
+    <cell id="10286" material="10015" name="RCCA bank SD axial 1: Water SPN" region="-10003 10000" universe="10058" />
+    <cell id="10287" material="10014" name="RCCA bank SD axial 2: Borated Water" region="-10111 10003" universe="10058" />
+    <cell fill="10039" id="10288" name="RCCA bank SD axial 3: RCCA rod cap" region="-10112 10111" universe="10058" />
+    <cell fill="10041" id="10289" name="RCCA bank SD axial 4: RCCA AIC" region="-10113 10112" universe="10058" />
+    <cell fill="10042" id="10290" name="RCCA bank SD axial 5: RCCA B4C" region="-10114 10113" universe="10058" />
+    <cell fill="10043" id="10291" name="RCCA bank SD axial 6: RCCA Spacer" region="-10115 10114" universe="10058" />
+    <cell fill="10040" id="10292" name="RCCA bank SD axial 7: RCCA plenum" region="-10116 10115" universe="10058" />
+    <cell fill="10039" id="10293" name="RCCA bank SD axial top: RCCA rod cap" region="10116" universe="10058" />
+    <cell fill="10058" id="10294" name="(RCCA bank SD) wrapped by ((Empty Guide Tube) wrapped by (Grids axial universe)) radial 0: RCCA bank SD" region="-10064" universe="10059" />
+    <cell fill="10027" id="10295" name="(RCCA bank SD) wrapped by ((Empty Guide Tube) wrapped by (Grids axial universe)) radial outer: (Empty Guide Tube) wrapped by (Grids axial universe)" region="10064" universe="10059" />
+    <cell id="10296" material="10014" name="RCCA bank SE axial 0: Borated Water" region="-10000" universe="10060" />
+    <cell id="10297" material="10015" name="RCCA bank SE axial 1: Water SPN" region="-10003 10000" universe="10060" />
+    <cell id="10298" material="10014" name="RCCA bank SE axial 2: Borated Water" region="-10117 10003" universe="10060" />
+    <cell fill="10039" id="10299" name="RCCA bank SE axial 3: RCCA rod cap" region="-10118 10117" universe="10060" />
+    <cell fill="10041" id="10300" name="RCCA bank SE axial 4: RCCA AIC" region="-10119 10118" universe="10060" />
+    <cell fill="10042" id="10301" name="RCCA bank SE axial 5: RCCA B4C" region="-10120 10119" universe="10060" />
+    <cell fill="10043" id="10302" name="RCCA bank SE axial 6: RCCA Spacer" region="-10121 10120" universe="10060" />
+    <cell fill="10040" id="10303" name="RCCA bank SE axial 7: RCCA plenum" region="-10122 10121" universe="10060" />
+    <cell fill="10039" id="10304" name="RCCA bank SE axial top: RCCA rod cap" region="10122" universe="10060" />
+    <cell fill="10060" id="10305" name="(RCCA bank SE) wrapped by ((Empty Guide Tube) wrapped by (Grids axial universe)) radial 0: RCCA bank SE" region="-10064" universe="10061" />
+    <cell fill="10027" id="10306" name="(RCCA bank SE) wrapped by ((Empty Guide Tube) wrapped by (Grids axial universe)) radial outer: (Empty Guide Tube) wrapped by (Grids axial universe)" region="10064" universe="10061" />
+    <cell fill="10062" id="10307" name="Fuel 1.6% enr no instr no BAs universe radial 0: Fuel 1.6% enr no instr no BAs" region="10123 -10124 10125 -10126" universe="10063" />
+    <cell fill="10006" id="10308" name="Fuel 1.6% enr no instr no BAs universe radial outer: Grid sleeve axial universe" region="~(10123 -10124 10125 -10126)" universe="10063" />
+    <cell fill="10065" id="10311" name="Fuel 1.6% enr instr no BAs universe radial 0: Fuel 1.6% enr instr no BAs" region="10123 -10124 10125 -10126" universe="10066" />
+    <cell fill="10006" id="10312" name="Fuel 1.6% enr instr no BAs universe radial outer: Grid sleeve axial universe" region="~(10123 -10124 10125 -10126)" universe="10066" />
+    <cell fill="10146" id="10419" name="Fuel 1.6% enr no instr RCCA A universe radial 0: Fuel 1.6% enr no instr RCCA A" region="10123 -10124 10125 -10126" universe="10147" />
+    <cell fill="10006" id="10420" name="Fuel 1.6% enr no instr RCCA A universe radial outer: Grid sleeve axial universe" region="~(10123 -10124 10125 -10126)" universe="10147" />
+    <cell fill="10149" id="10423" name="Fuel 1.6% enr instr RCCA A universe radial 0: Fuel 1.6% enr instr RCCA A" region="10123 -10124 10125 -10126" universe="10150" />
+    <cell fill="10006" id="10424" name="Fuel 1.6% enr instr RCCA A universe radial outer: Grid sleeve axial universe" region="~(10123 -10124 10125 -10126)" universe="10150" />
+    <cell fill="10152" id="10427" name="Fuel 1.6% enr no instr RCCA B universe radial 0: Fuel 1.6% enr no instr RCCA B" region="10123 -10124 10125 -10126" universe="10153" />
+    <cell fill="10006" id="10428" name="Fuel 1.6% enr no instr RCCA B universe radial outer: Grid sleeve axial universe" region="~(10123 -10124 10125 -10126)" universe="10153" />
+    <cell fill="10155" id="10431" name="Fuel 1.6% enr instr RCCA B universe radial 0: Fuel 1.6% enr instr RCCA B" region="10123 -10124 10125 -10126" universe="10156" />
+    <cell fill="10006" id="10432" name="Fuel 1.6% enr instr RCCA B universe radial outer: Grid sleeve axial universe" region="~(10123 -10124 10125 -10126)" universe="10156" />
+    <cell fill="10158" id="10435" name="Fuel 1.6% enr no instr RCCA C universe radial 0: Fuel 1.6% enr no instr RCCA C" region="10123 -10124 10125 -10126" universe="10159" />
+    <cell fill="10006" id="10436" name="Fuel 1.6% enr no instr RCCA C universe radial outer: Grid sleeve axial universe" region="~(10123 -10124 10125 -10126)" universe="10159" />
+    <cell fill="10161" id="10439" name="Fuel 1.6% enr instr RCCA C universe radial 0: Fuel 1.6% enr instr RCCA C" region="10123 -10124 10125 -10126" universe="10162" />
+    <cell fill="10006" id="10440" name="Fuel 1.6% enr instr RCCA C universe radial outer: Grid sleeve axial universe" region="~(10123 -10124 10125 -10126)" universe="10162" />
+    <cell fill="10164" id="10443" name="Fuel 1.6% enr no instr RCCA D universe radial 0: Fuel 1.6% enr no instr RCCA D" region="10123 -10124 10125 -10126" universe="10165" />
+    <cell fill="10006" id="10444" name="Fuel 1.6% enr no instr RCCA D universe radial outer: Grid sleeve axial universe" region="~(10123 -10124 10125 -10126)" universe="10165" />
+    <cell fill="10176" id="10459" name="Fuel 1.6% enr no instr RCCA SB universe radial 0: Fuel 1.6% enr no instr RCCA SB" region="10123 -10124 10125 -10126" universe="10177" />
+    <cell fill="10006" id="10460" name="Fuel 1.6% enr no instr RCCA SB universe radial outer: Grid sleeve axial universe" region="~(10123 -10124 10125 -10126)" universe="10177" />
+    <cell fill="10179" id="10463" name="Fuel 1.6% enr instr RCCA SB universe radial 0: Fuel 1.6% enr instr RCCA SB" region="10123 -10124 10125 -10126" universe="10180" />
+    <cell fill="10006" id="10464" name="Fuel 1.6% enr instr RCCA SB universe radial outer: Grid sleeve axial universe" region="~(10123 -10124 10125 -10126)" universe="10180" />
+    <cell fill="10182" id="10467" name="Fuel 1.6% enr no instr RCCA SC universe radial 0: Fuel 1.6% enr no instr RCCA SC" region="10123 -10124 10125 -10126" universe="10183" />
+    <cell fill="10006" id="10468" name="Fuel 1.6% enr no instr RCCA SC universe radial outer: Grid sleeve axial universe" region="~(10123 -10124 10125 -10126)" universe="10183" />
+    <cell fill="10185" id="10471" name="Fuel 1.6% enr instr RCCA SC universe radial 0: Fuel 1.6% enr instr RCCA SC" region="10123 -10124 10125 -10126" universe="10186" />
+    <cell fill="10006" id="10472" name="Fuel 1.6% enr instr RCCA SC universe radial outer: Grid sleeve axial universe" region="~(10123 -10124 10125 -10126)" universe="10186" />
+    <cell fill="10188" id="10475" name="Fuel 1.6% enr no instr RCCA SD universe radial 0: Fuel 1.6% enr no instr RCCA SD" region="10123 -10124 10125 -10126" universe="10189" />
+    <cell fill="10006" id="10476" name="Fuel 1.6% enr no instr RCCA SD universe radial outer: Grid sleeve axial universe" region="~(10123 -10124 10125 -10126)" universe="10189" />
+    <cell fill="10191" id="10479" name="Fuel 1.6% enr instr RCCA SD universe radial 0: Fuel 1.6% enr instr RCCA SD" region="10123 -10124 10125 -10126" universe="10192" />
+    <cell fill="10006" id="10480" name="Fuel 1.6% enr instr RCCA SD universe radial outer: Grid sleeve axial universe" region="~(10123 -10124 10125 -10126)" universe="10192" />
+    <cell fill="10194" id="10483" name="Fuel 1.6% enr no instr RCCA SE universe radial 0: Fuel 1.6% enr no instr RCCA SE" region="10123 -10124 10125 -10126" universe="10195" />
+    <cell fill="10006" id="10484" name="Fuel 1.6% enr no instr RCCA SE universe radial outer: Grid sleeve axial universe" region="~(10123 -10124 10125 -10126)" universe="10195" />
+    <cell fill="10197" id="10487" name="Fuel 1.6% enr instr RCCA SE universe radial 0: Fuel 1.6% enr instr RCCA SE" region="10123 -10124 10125 -10126" universe="10198" />
+    <cell fill="10006" id="10488" name="Fuel 1.6% enr instr RCCA SE universe radial outer: Grid sleeve axial universe" region="~(10123 -10124 10125 -10126)" universe="10198" />
+    <cell fill="10242" id="10547" name="Fuel 2.4% enr no instr 12 universe radial 0: Fuel 2.4% enr no instr 12" region="10123 -10124 10125 -10126" universe="10243" />
+    <cell fill="10006" id="10548" name="Fuel 2.4% enr no instr 12 universe radial outer: Grid sleeve axial universe" region="~(10123 -10124 10125 -10126)" universe="10243" />
+    <cell fill="10245" id="10551" name="Fuel 2.4% enr instr 12 universe radial 0: Fuel 2.4% enr instr 12" region="10123 -10124 10125 -10126" universe="10246" />
+    <cell fill="10006" id="10552" name="Fuel 2.4% enr instr 12 universe radial outer: Grid sleeve axial universe" region="~(10123 -10124 10125 -10126)" universe="10246" />
+    <cell fill="10272" id="10587" name="Fuel 2.4% enr no instr 16 universe radial 0: Fuel 2.4% enr no instr 16" region="10123 -10124 10125 -10126" universe="10273" />
+    <cell fill="10006" id="10588" name="Fuel 2.4% enr no instr 16 universe radial outer: Grid sleeve axial universe" region="~(10123 -10124 10125 -10126)" universe="10273" />
+    <cell fill="10275" id="10591" name="Fuel 2.4% enr instr 16 universe radial 0: Fuel 2.4% enr instr 16" region="10123 -10124 10125 -10126" universe="10276" />
+    <cell fill="10006" id="10592" name="Fuel 2.4% enr instr 16 universe radial outer: Grid sleeve axial universe" region="~(10123 -10124 10125 -10126)" universe="10276" />
+    <cell fill="10302" id="10627" name="Fuel 2.4% enr no instr RCCA D universe radial 0: Fuel 2.4% enr no instr RCCA D" region="10123 -10124 10125 -10126" universe="10303" />
+    <cell fill="10006" id="10628" name="Fuel 2.4% enr no instr RCCA D universe radial outer: Grid sleeve axial universe" region="~(10123 -10124 10125 -10126)" universe="10303" />
+    <cell fill="10305" id="10631" name="Fuel 2.4% enr instr RCCA D universe radial 0: Fuel 2.4% enr instr RCCA D" region="10123 -10124 10125 -10126" universe="10306" />
+    <cell fill="10006" id="10632" name="Fuel 2.4% enr instr RCCA D universe radial outer: Grid sleeve axial universe" region="~(10123 -10124 10125 -10126)" universe="10306" />
+    <cell fill="10338" id="10675" name="Fuel 3.1% enr no instr no BAs universe radial 0: Fuel 3.1% enr no instr no BAs" region="10123 -10124 10125 -10126" universe="10339" />
+    <cell fill="10006" id="10676" name="Fuel 3.1% enr no instr no BAs universe radial outer: Grid sleeve axial universe" region="~(10123 -10124 10125 -10126)" universe="10339" />
+    <cell fill="10341" id="10679" name="Fuel 3.1% enr instr no BAs universe radial 0: Fuel 3.1% enr instr no BAs" region="10123 -10124 10125 -10126" universe="10342" />
+    <cell fill="10006" id="10680" name="Fuel 3.1% enr instr no BAs universe radial outer: Grid sleeve axial universe" region="~(10123 -10124 10125 -10126)" universe="10342" />
+    <cell fill="10350" id="10691" name="Fuel 3.1% enr no instr 6N universe radial 0: Fuel 3.1% enr no instr 6N" region="10123 -10124 10125 -10126" universe="10351" />
+    <cell fill="10006" id="10692" name="Fuel 3.1% enr no instr 6N universe radial outer: Grid sleeve axial universe" region="~(10123 -10124 10125 -10126)" universe="10351" />
+    <cell fill="10353" id="10695" name="Fuel 3.1% enr instr 6N universe radial 0: Fuel 3.1% enr instr 6N" region="10123 -10124 10125 -10126" universe="10354" />
+    <cell fill="10006" id="10696" name="Fuel 3.1% enr instr 6N universe radial outer: Grid sleeve axial universe" region="~(10123 -10124 10125 -10126)" universe="10354" />
+    <cell fill="10356" id="10699" name="Fuel 3.1% enr no instr 6S universe radial 0: Fuel 3.1% enr no instr 6S" region="10123 -10124 10125 -10126" universe="10357" />
+    <cell fill="10006" id="10700" name="Fuel 3.1% enr no instr 6S universe radial outer: Grid sleeve axial universe" region="~(10123 -10124 10125 -10126)" universe="10357" />
+    <cell fill="10359" id="10703" name="Fuel 3.1% enr instr 6S universe radial 0: Fuel 3.1% enr instr 6S" region="10123 -10124 10125 -10126" universe="10360" />
+    <cell fill="10006" id="10704" name="Fuel 3.1% enr instr 6S universe radial outer: Grid sleeve axial universe" region="~(10123 -10124 10125 -10126)" universe="10360" />
+    <cell fill="10362" id="10707" name="Fuel 3.1% enr no instr 6E universe radial 0: Fuel 3.1% enr no instr 6E" region="10123 -10124 10125 -10126" universe="10363" />
+    <cell fill="10006" id="10708" name="Fuel 3.1% enr no instr 6E universe radial outer: Grid sleeve axial universe" region="~(10123 -10124 10125 -10126)" universe="10363" />
+    <cell fill="10365" id="10711" name="Fuel 3.1% enr instr 6E universe radial 0: Fuel 3.1% enr instr 6E" region="10123 -10124 10125 -10126" universe="10366" />
+    <cell fill="10006" id="10712" name="Fuel 3.1% enr instr 6E universe radial outer: Grid sleeve axial universe" region="~(10123 -10124 10125 -10126)" universe="10366" />
+    <cell fill="10368" id="10715" name="Fuel 3.1% enr no instr 6W universe radial 0: Fuel 3.1% enr no instr 6W" region="10123 -10124 10125 -10126" universe="10369" />
+    <cell fill="10006" id="10716" name="Fuel 3.1% enr no instr 6W universe radial outer: Grid sleeve axial universe" region="~(10123 -10124 10125 -10126)" universe="10369" />
+    <cell fill="10386" id="10739" name="Fuel 3.1% enr no instr 15NW universe radial 0: Fuel 3.1% enr no instr 15NW" region="10123 -10124 10125 -10126" universe="10387" />
+    <cell fill="10006" id="10740" name="Fuel 3.1% enr no instr 15NW universe radial outer: Grid sleeve axial universe" region="~(10123 -10124 10125 -10126)" universe="10387" />
+    <cell fill="10395" id="10751" name="Fuel 3.1% enr instr 15NE universe radial 0: Fuel 3.1% enr instr 15NE" region="10123 -10124 10125 -10126" universe="10396" />
+    <cell fill="10006" id="10752" name="Fuel 3.1% enr instr 15NE universe radial outer: Grid sleeve axial universe" region="~(10123 -10124 10125 -10126)" universe="10396" />
+    <cell fill="10398" id="10755" name="Fuel 3.1% enr no instr 15SW universe radial 0: Fuel 3.1% enr no instr 15SW" region="10123 -10124 10125 -10126" universe="10399" />
+    <cell fill="10006" id="10756" name="Fuel 3.1% enr no instr 15SW universe radial outer: Grid sleeve axial universe" region="~(10123 -10124 10125 -10126)" universe="10399" />
+    <cell fill="10404" id="10763" name="Fuel 3.1% enr no instr 15SE universe radial 0: Fuel 3.1% enr no instr 15SE" region="10123 -10124 10125 -10126" universe="10405" />
+    <cell fill="10006" id="10764" name="Fuel 3.1% enr no instr 15SE universe radial outer: Grid sleeve axial universe" region="~(10123 -10124 10125 -10126)" universe="10405" />
+    <cell fill="10410" id="10771" name="Fuel 3.1% enr no instr 16 universe radial 0: Fuel 3.1% enr no instr 16" region="10123 -10124 10125 -10126" universe="10411" />
+    <cell fill="10006" id="10772" name="Fuel 3.1% enr no instr 16 universe radial outer: Grid sleeve axial universe" region="~(10123 -10124 10125 -10126)" universe="10411" />
+    <cell fill="10416" id="10779" name="Fuel 3.1% enr no instr 20 universe radial 0: Fuel 3.1% enr no instr 20" region="10123 -10124 10125 -10126" universe="10417" />
+    <cell fill="10006" id="10780" name="Fuel 3.1% enr no instr 20 universe radial outer: Grid sleeve axial universe" region="~(10123 -10124 10125 -10126)" universe="10417" />
+    <cell fill="10419" id="10783" name="Fuel 3.1% enr instr 20 universe radial 0: Fuel 3.1% enr instr 20" region="10123 -10124 10125 -10126" universe="10420" />
+    <cell fill="10006" id="10784" name="Fuel 3.1% enr instr 20 universe radial outer: Grid sleeve axial universe" region="~(10123 -10124 10125 -10126)" universe="10420" />
+    <cell fill="10446" id="10819" name="Fuel 3.1% enr no instr RCCA SA universe radial 0: Fuel 3.1% enr no instr RCCA SA" region="10123 -10124 10125 -10126" universe="10447" />
+    <cell fill="10006" id="10820" name="Fuel 3.1% enr no instr RCCA SA universe radial outer: Grid sleeve axial universe" region="~(10123 -10124 10125 -10126)" universe="10447" />
+    <cell fill="10449" id="10823" name="Fuel 3.1% enr instr RCCA SA universe radial 0: Fuel 3.1% enr instr RCCA SA" region="10123 -10124 10125 -10126" universe="10450" />
+    <cell fill="10006" id="10824" name="Fuel 3.1% enr instr RCCA SA universe radial outer: Grid sleeve axial universe" region="~(10123 -10124 10125 -10126)" universe="10450" />
+    <cell id="11227" material="10014" name="North Baffle Water Gap" region="10132" universe="10752" />
+    <cell id="11228" material="10001" name="North Baffle Steel" region="-10132 10133" universe="10752" />
+    <cell id="11229" material="10014" name="North Baffle Outer Water" region="-10133" universe="10752" />
+    <cell fill="10752" id="11230" name="Baffle West radial 0: Baffle North" region="-10131" rotation="0 0 90" universe="10753" />
+    <cell id="11231" material="10014" name="Baffle West radial outer: Borated Water" region="10131" universe="10753" />
+    <cell fill="10752" id="11232" name="Baffle South radial 0: Baffle North" region="-10131" rotation="0 0 180" universe="10754" />
+    <cell id="11233" material="10014" name="Baffle South radial outer: Borated Water" region="10131" universe="10754" />
+    <cell fill="10752" id="11234" name="Baffle East radial 0: Baffle North" region="-10131" rotation="0 0 270" universe="10755" />
+    <cell id="11235" material="10014" name="Baffle East radial outer: Borated Water" region="10131" universe="10755" />
+    <cell id="11236" material="10014" name="Corner Baffle Water Gap N" region="10132" universe="10756" />
+    <cell id="11237" material="10014" name="Corner Baffle Water Gap W" region="-10132 -10134" universe="10756" />
+    <cell id="11238" material="10001" name="Corner Baffle Steel N" region="-10132 10133 10134" universe="10756" />
+    <cell id="11239" material="10001" name="Corner Baffle Steel W" region="-10133 10134 -10135" universe="10756" />
+    <cell id="11240" material="10014" name="Corner Baffle Outer Water" region="-10133 10135" universe="10756" />
+    <cell fill="10756" id="11241" name="Baffle South West Corner radial 0: Baffle North West Corner" region="-10131" rotation="0 0 90" universe="10757" />
+    <cell id="11242" material="10014" name="Baffle South West Corner radial outer: Borated Water" region="10131" universe="10757" />
+    <cell fill="10756" id="11243" name="Baffle South East Corner radial 0: Baffle North West Corner" region="-10131" rotation="0 0 180" universe="10758" />
+    <cell id="11244" material="10014" name="Baffle South East Corner radial outer: Borated Water" region="10131" universe="10758" />
+    <cell fill="10756" id="11245" name="Baffle North East Corner radial 0: Baffle North West Corner" region="-10131" rotation="0 0 270" universe="10759" />
+    <cell id="11246" material="10014" name="Baffle North East Corner radial outer: Borated Water" region="10131" universe="10759" />
+    <cell id="11247" material="10014" name="Tip Baffle Water Gap" region="10132 -10134" universe="10760" />
+    <cell id="11248" material="10001" name="Tip Baffle steel N" region="10133 -10135 10134" universe="10760" />
+    <cell id="11249" material="10001" name="Tip Baffle Steel W" region="-10132 10133 -10134" universe="10760" />
+    <cell id="11250" material="10014" name="Tip Baffle Outer Water N" region="10133 10135" universe="10760" />
+    <cell id="11251" material="10014" name="Tip Baffle Outer Water W" region="-10133 -10135" universe="10760" />
+    <cell id="11252" material="10014" name="Tip Baffle Outer Water SE" region="-10133 10135" universe="10760" />
+    <cell fill="10760" id="11253" name="Baffle South West Tip radial 0: Baffle North West Tip" region="-10131" rotation="0 0 90" universe="10761" />
+    <cell id="11254" material="10014" name="Baffle South West Tip radial outer: Borated Water" region="10131" universe="10761" />
+    <cell fill="10760" id="11255" name="Baffle South East Tip radial 0: Baffle North West Tip" region="-10131" rotation="0 0 180" universe="10762" />
+    <cell id="11256" material="10014" name="Baffle South East Tip radial outer: Borated Water" region="10131" universe="10762" />
+    <cell fill="10760" id="11257" name="Baffle North East Tip radial 0: Baffle North West Tip" region="-10131" rotation="0 0 270" universe="10763" />
+    <cell id="11258" material="10014" name="Baffle North East Tip radial outer: Borated Water" region="10131" universe="10763" />
+    <cell id="11259" material="10007" name="RPV" region="-10138 10139 -10136 10137" universe="0" />
+    <cell id="11260" material="10001" name="RPV Liner" region="-10139 10140 -10136 10137" universe="0" />
+    <cell id="11261" material="10014" name="Downcomer" region="-10140 10141 -10136 10137" universe="0" />
+    <cell id="11262" material="10001" name="NW Shield Panel" region="10142 -10141 10143 -10144 -10136 10137" universe="0" />
+    <cell id="11263" material="10001" name="SE Shield Panel" region="10142 -10141 -10143 10144 -10136 10137" universe="0" />
+    <cell id="11264" material="10001" name="NE Shield Panel" region="10142 -10141 10145 -10146 -10136 10137" universe="0" />
+    <cell id="11265" material="10001" name="SW Shield Panel" region="10142 -10141 -10145 10146 -10136 10137" universe="0" />
+    <cell id="11266" material="10014" name="N Shield Water" region="10142 -10141 10144 -10146 -10136 10137" universe="0" />
+    <cell id="11267" material="10014" name="S Shield Water" region="10142 -10141 10146 -10144 -10136 10137" universe="0" />
+    <cell id="11268" material="10014" name="E Shield Water" region="10142 -10141 10143 10145 -10136 10137" universe="0" />
+    <cell id="11269" material="10014" name="W Shield Water" region="10142 -10141 -10143 -10145 -10136 10137" universe="0" />
+    <cell id="11270" material="10014" name="Water between barrel and shield" region="10147 -10142 -10136 10137" universe="0" />
+    <cell id="11271" material="10001" name="Core Barrel" region="-10147 10148 -10136 10137" universe="0" />
+    <cell fill="10764" id="11272" name="Core lattice" region="-10148 -10136 10137" universe="0" />
+    <lattice id="10062" name="Fuel 1.6% enr no instr no BAs">
+        <pitch>1.25984 1.25984</pitch>
+        <dimension>17 17</dimension>
+        <lower_left>-10.70864 -10.70864</lower_left>
+        <universes>
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10027 10015 10015 10027 10015 10015 10027 10015 10015 10015 10015 10015 
+10015 10015 10015 10027 10015 10015 10015 10015 10015 10015 10015 10015 10015 10027 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10027 10015 10015 10027 10015 10015 10027 10015 10015 10027 10015 10015 10027 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10027 10015 10015 10027 10015 10015 10029 10015 10015 10027 10015 10015 10027 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10027 10015 10015 10027 10015 10015 10027 10015 10015 10027 10015 10015 10027 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10027 10015 10015 10015 10015 10015 10015 10015 10015 10015 10027 10015 10015 10015 
+10015 10015 10015 10015 10015 10027 10015 10015 10027 10015 10015 10027 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 </universes>
+    </lattice>
+    <lattice id="10065" name="Fuel 1.6% enr instr no BAs">
+        <pitch>1.25984 1.25984</pitch>
+        <dimension>17 17</dimension>
+        <lower_left>-10.70864 -10.70864</lower_left>
+        <universes>
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10027 10015 10015 10027 10015 10015 10027 10015 10015 10015 10015 10015 
+10015 10015 10015 10027 10015 10015 10015 10015 10015 10015 10015 10015 10015 10027 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10027 10015 10015 10027 10015 10015 10027 10015 10015 10027 10015 10015 10027 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10027 10015 10015 10027 10015 10015 10033 10015 10015 10027 10015 10015 10027 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10027 10015 10015 10027 10015 10015 10027 10015 10015 10027 10015 10015 10027 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10027 10015 10015 10015 10015 10015 10015 10015 10015 10015 10027 10015 10015 10015 
+10015 10015 10015 10015 10015 10027 10015 10015 10027 10015 10015 10027 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 </universes>
+    </lattice>
+    <lattice id="10146" name="Fuel 1.6% enr no instr RCCA A">
+        <pitch>1.25984 1.25984</pitch>
+        <dimension>17 17</dimension>
+        <lower_left>-10.70864 -10.70864</lower_left>
+        <universes>
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10045 10015 10015 10045 10015 10015 10045 10015 10015 10015 10015 10015 
+10015 10015 10015 10045 10015 10015 10015 10015 10015 10015 10015 10015 10015 10045 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10045 10015 10015 10045 10015 10015 10045 10015 10015 10045 10015 10015 10045 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10045 10015 10015 10045 10015 10015 10029 10015 10015 10045 10015 10015 10045 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10045 10015 10015 10045 10015 10015 10045 10015 10015 10045 10015 10015 10045 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10045 10015 10015 10015 10015 10015 10015 10015 10015 10015 10045 10015 10015 10015 
+10015 10015 10015 10015 10015 10045 10015 10015 10045 10015 10015 10045 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 </universes>
+    </lattice>
+    <lattice id="10149" name="Fuel 1.6% enr instr RCCA A">
+        <pitch>1.25984 1.25984</pitch>
+        <dimension>17 17</dimension>
+        <lower_left>-10.70864 -10.70864</lower_left>
+        <universes>
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10045 10015 10015 10045 10015 10015 10045 10015 10015 10015 10015 10015 
+10015 10015 10015 10045 10015 10015 10015 10015 10015 10015 10015 10015 10015 10045 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10045 10015 10015 10045 10015 10015 10045 10015 10015 10045 10015 10015 10045 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10045 10015 10015 10045 10015 10015 10033 10015 10015 10045 10015 10015 10045 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10045 10015 10015 10045 10015 10015 10045 10015 10015 10045 10015 10015 10045 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10045 10015 10015 10015 10015 10015 10015 10015 10015 10015 10045 10015 10015 10015 
+10015 10015 10015 10015 10015 10045 10015 10015 10045 10015 10015 10045 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 </universes>
+    </lattice>
+    <lattice id="10152" name="Fuel 1.6% enr no instr RCCA B">
+        <pitch>1.25984 1.25984</pitch>
+        <dimension>17 17</dimension>
+        <lower_left>-10.70864 -10.70864</lower_left>
+        <universes>
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10047 10015 10015 10047 10015 10015 10047 10015 10015 10015 10015 10015 
+10015 10015 10015 10047 10015 10015 10015 10015 10015 10015 10015 10015 10015 10047 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10047 10015 10015 10047 10015 10015 10047 10015 10015 10047 10015 10015 10047 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10047 10015 10015 10047 10015 10015 10029 10015 10015 10047 10015 10015 10047 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10047 10015 10015 10047 10015 10015 10047 10015 10015 10047 10015 10015 10047 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10047 10015 10015 10015 10015 10015 10015 10015 10015 10015 10047 10015 10015 10015 
+10015 10015 10015 10015 10015 10047 10015 10015 10047 10015 10015 10047 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 </universes>
+    </lattice>
+    <lattice id="10155" name="Fuel 1.6% enr instr RCCA B">
+        <pitch>1.25984 1.25984</pitch>
+        <dimension>17 17</dimension>
+        <lower_left>-10.70864 -10.70864</lower_left>
+        <universes>
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10047 10015 10015 10047 10015 10015 10047 10015 10015 10015 10015 10015 
+10015 10015 10015 10047 10015 10015 10015 10015 10015 10015 10015 10015 10015 10047 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10047 10015 10015 10047 10015 10015 10047 10015 10015 10047 10015 10015 10047 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10047 10015 10015 10047 10015 10015 10033 10015 10015 10047 10015 10015 10047 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10047 10015 10015 10047 10015 10015 10047 10015 10015 10047 10015 10015 10047 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10047 10015 10015 10015 10015 10015 10015 10015 10015 10015 10047 10015 10015 10015 
+10015 10015 10015 10015 10015 10047 10015 10015 10047 10015 10015 10047 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 </universes>
+    </lattice>
+    <lattice id="10158" name="Fuel 1.6% enr no instr RCCA C">
+        <pitch>1.25984 1.25984</pitch>
+        <dimension>17 17</dimension>
+        <lower_left>-10.70864 -10.70864</lower_left>
+        <universes>
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10049 10015 10015 10049 10015 10015 10049 10015 10015 10015 10015 10015 
+10015 10015 10015 10049 10015 10015 10015 10015 10015 10015 10015 10015 10015 10049 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10049 10015 10015 10049 10015 10015 10049 10015 10015 10049 10015 10015 10049 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10049 10015 10015 10049 10015 10015 10029 10015 10015 10049 10015 10015 10049 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10049 10015 10015 10049 10015 10015 10049 10015 10015 10049 10015 10015 10049 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10049 10015 10015 10015 10015 10015 10015 10015 10015 10015 10049 10015 10015 10015 
+10015 10015 10015 10015 10015 10049 10015 10015 10049 10015 10015 10049 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 </universes>
+    </lattice>
+    <lattice id="10161" name="Fuel 1.6% enr instr RCCA C">
+        <pitch>1.25984 1.25984</pitch>
+        <dimension>17 17</dimension>
+        <lower_left>-10.70864 -10.70864</lower_left>
+        <universes>
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10049 10015 10015 10049 10015 10015 10049 10015 10015 10015 10015 10015 
+10015 10015 10015 10049 10015 10015 10015 10015 10015 10015 10015 10015 10015 10049 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10049 10015 10015 10049 10015 10015 10049 10015 10015 10049 10015 10015 10049 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10049 10015 10015 10049 10015 10015 10033 10015 10015 10049 10015 10015 10049 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10049 10015 10015 10049 10015 10015 10049 10015 10015 10049 10015 10015 10049 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10049 10015 10015 10015 10015 10015 10015 10015 10015 10015 10049 10015 10015 10015 
+10015 10015 10015 10015 10015 10049 10015 10015 10049 10015 10015 10049 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 </universes>
+    </lattice>
+    <lattice id="10164" name="Fuel 1.6% enr no instr RCCA D">
+        <pitch>1.25984 1.25984</pitch>
+        <dimension>17 17</dimension>
+        <lower_left>-10.70864 -10.70864</lower_left>
+        <universes>
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10051 10015 10015 10051 10015 10015 10051 10015 10015 10015 10015 10015 
+10015 10015 10015 10051 10015 10015 10015 10015 10015 10015 10015 10015 10015 10051 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10051 10015 10015 10051 10015 10015 10051 10015 10015 10051 10015 10015 10051 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10051 10015 10015 10051 10015 10015 10029 10015 10015 10051 10015 10015 10051 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10051 10015 10015 10051 10015 10015 10051 10015 10015 10051 10015 10015 10051 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10051 10015 10015 10015 10015 10015 10015 10015 10015 10015 10051 10015 10015 10015 
+10015 10015 10015 10015 10015 10051 10015 10015 10051 10015 10015 10051 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 </universes>
+    </lattice>
+    <lattice id="10176" name="Fuel 1.6% enr no instr RCCA SB">
+        <pitch>1.25984 1.25984</pitch>
+        <dimension>17 17</dimension>
+        <lower_left>-10.70864 -10.70864</lower_left>
+        <universes>
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10055 10015 10015 10055 10015 10015 10055 10015 10015 10015 10015 10015 
+10015 10015 10015 10055 10015 10015 10015 10015 10015 10015 10015 10015 10015 10055 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10055 10015 10015 10055 10015 10015 10055 10015 10015 10055 10015 10015 10055 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10055 10015 10015 10055 10015 10015 10029 10015 10015 10055 10015 10015 10055 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10055 10015 10015 10055 10015 10015 10055 10015 10015 10055 10015 10015 10055 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10055 10015 10015 10015 10015 10015 10015 10015 10015 10015 10055 10015 10015 10015 
+10015 10015 10015 10015 10015 10055 10015 10015 10055 10015 10015 10055 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 </universes>
+    </lattice>
+    <lattice id="10179" name="Fuel 1.6% enr instr RCCA SB">
+        <pitch>1.25984 1.25984</pitch>
+        <dimension>17 17</dimension>
+        <lower_left>-10.70864 -10.70864</lower_left>
+        <universes>
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10055 10015 10015 10055 10015 10015 10055 10015 10015 10015 10015 10015 
+10015 10015 10015 10055 10015 10015 10015 10015 10015 10015 10015 10015 10015 10055 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10055 10015 10015 10055 10015 10015 10055 10015 10015 10055 10015 10015 10055 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10055 10015 10015 10055 10015 10015 10033 10015 10015 10055 10015 10015 10055 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10055 10015 10015 10055 10015 10015 10055 10015 10015 10055 10015 10015 10055 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10055 10015 10015 10015 10015 10015 10015 10015 10015 10015 10055 10015 10015 10015 
+10015 10015 10015 10015 10015 10055 10015 10015 10055 10015 10015 10055 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 </universes>
+    </lattice>
+    <lattice id="10182" name="Fuel 1.6% enr no instr RCCA SC">
+        <pitch>1.25984 1.25984</pitch>
+        <dimension>17 17</dimension>
+        <lower_left>-10.70864 -10.70864</lower_left>
+        <universes>
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10057 10015 10015 10057 10015 10015 10057 10015 10015 10015 10015 10015 
+10015 10015 10015 10057 10015 10015 10015 10015 10015 10015 10015 10015 10015 10057 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10057 10015 10015 10057 10015 10015 10057 10015 10015 10057 10015 10015 10057 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10057 10015 10015 10057 10015 10015 10029 10015 10015 10057 10015 10015 10057 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10057 10015 10015 10057 10015 10015 10057 10015 10015 10057 10015 10015 10057 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10057 10015 10015 10015 10015 10015 10015 10015 10015 10015 10057 10015 10015 10015 
+10015 10015 10015 10015 10015 10057 10015 10015 10057 10015 10015 10057 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 </universes>
+    </lattice>
+    <lattice id="10185" name="Fuel 1.6% enr instr RCCA SC">
+        <pitch>1.25984 1.25984</pitch>
+        <dimension>17 17</dimension>
+        <lower_left>-10.70864 -10.70864</lower_left>
+        <universes>
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10057 10015 10015 10057 10015 10015 10057 10015 10015 10015 10015 10015 
+10015 10015 10015 10057 10015 10015 10015 10015 10015 10015 10015 10015 10015 10057 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10057 10015 10015 10057 10015 10015 10057 10015 10015 10057 10015 10015 10057 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10057 10015 10015 10057 10015 10015 10033 10015 10015 10057 10015 10015 10057 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10057 10015 10015 10057 10015 10015 10057 10015 10015 10057 10015 10015 10057 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10057 10015 10015 10015 10015 10015 10015 10015 10015 10015 10057 10015 10015 10015 
+10015 10015 10015 10015 10015 10057 10015 10015 10057 10015 10015 10057 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 </universes>
+    </lattice>
+    <lattice id="10188" name="Fuel 1.6% enr no instr RCCA SD">
+        <pitch>1.25984 1.25984</pitch>
+        <dimension>17 17</dimension>
+        <lower_left>-10.70864 -10.70864</lower_left>
+        <universes>
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10059 10015 10015 10059 10015 10015 10059 10015 10015 10015 10015 10015 
+10015 10015 10015 10059 10015 10015 10015 10015 10015 10015 10015 10015 10015 10059 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10059 10015 10015 10059 10015 10015 10059 10015 10015 10059 10015 10015 10059 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10059 10015 10015 10059 10015 10015 10029 10015 10015 10059 10015 10015 10059 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10059 10015 10015 10059 10015 10015 10059 10015 10015 10059 10015 10015 10059 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10059 10015 10015 10015 10015 10015 10015 10015 10015 10015 10059 10015 10015 10015 
+10015 10015 10015 10015 10015 10059 10015 10015 10059 10015 10015 10059 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 </universes>
+    </lattice>
+    <lattice id="10191" name="Fuel 1.6% enr instr RCCA SD">
+        <pitch>1.25984 1.25984</pitch>
+        <dimension>17 17</dimension>
+        <lower_left>-10.70864 -10.70864</lower_left>
+        <universes>
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10059 10015 10015 10059 10015 10015 10059 10015 10015 10015 10015 10015 
+10015 10015 10015 10059 10015 10015 10015 10015 10015 10015 10015 10015 10015 10059 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10059 10015 10015 10059 10015 10015 10059 10015 10015 10059 10015 10015 10059 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10059 10015 10015 10059 10015 10015 10033 10015 10015 10059 10015 10015 10059 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10059 10015 10015 10059 10015 10015 10059 10015 10015 10059 10015 10015 10059 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10059 10015 10015 10015 10015 10015 10015 10015 10015 10015 10059 10015 10015 10015 
+10015 10015 10015 10015 10015 10059 10015 10015 10059 10015 10015 10059 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 </universes>
+    </lattice>
+    <lattice id="10194" name="Fuel 1.6% enr no instr RCCA SE">
+        <pitch>1.25984 1.25984</pitch>
+        <dimension>17 17</dimension>
+        <lower_left>-10.70864 -10.70864</lower_left>
+        <universes>
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10061 10015 10015 10061 10015 10015 10061 10015 10015 10015 10015 10015 
+10015 10015 10015 10061 10015 10015 10015 10015 10015 10015 10015 10015 10015 10061 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10061 10015 10015 10061 10015 10015 10061 10015 10015 10061 10015 10015 10061 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10061 10015 10015 10061 10015 10015 10029 10015 10015 10061 10015 10015 10061 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10061 10015 10015 10061 10015 10015 10061 10015 10015 10061 10015 10015 10061 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10061 10015 10015 10015 10015 10015 10015 10015 10015 10015 10061 10015 10015 10015 
+10015 10015 10015 10015 10015 10061 10015 10015 10061 10015 10015 10061 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 </universes>
+    </lattice>
+    <lattice id="10197" name="Fuel 1.6% enr instr RCCA SE">
+        <pitch>1.25984 1.25984</pitch>
+        <dimension>17 17</dimension>
+        <lower_left>-10.70864 -10.70864</lower_left>
+        <universes>
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10061 10015 10015 10061 10015 10015 10061 10015 10015 10015 10015 10015 
+10015 10015 10015 10061 10015 10015 10015 10015 10015 10015 10015 10015 10015 10061 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10061 10015 10015 10061 10015 10015 10061 10015 10015 10061 10015 10015 10061 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10061 10015 10015 10061 10015 10015 10033 10015 10015 10061 10015 10015 10061 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10061 10015 10015 10061 10015 10015 10061 10015 10015 10061 10015 10015 10061 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10061 10015 10015 10015 10015 10015 10015 10015 10015 10015 10061 10015 10015 10015 
+10015 10015 10015 10015 10015 10061 10015 10015 10061 10015 10015 10061 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 
+10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 10015 </universes>
+    </lattice>
+    <lattice id="10242" name="Fuel 2.4% enr no instr 12">
+        <pitch>1.25984 1.25984</pitch>
+        <dimension>17 17</dimension>
+        <lower_left>-10.70864 -10.70864</lower_left>
+        <universes>
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10017 10017 10017 10038 10017 10017 10027 10017 10017 10038 10017 10017 10017 10017 10017 
+10017 10017 10017 10038 10017 10017 10017 10017 10017 10017 10017 10017 10017 10038 10017 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10038 10017 10017 10027 10017 10017 10027 10017 10017 10027 10017 10017 10038 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10027 10017 10017 10027 10017 10017 10029 10017 10017 10027 10017 10017 10027 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10038 10017 10017 10027 10017 10017 10027 10017 10017 10027 10017 10017 10038 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10017 10038 10017 10017 10017 10017 10017 10017 10017 10017 10017 10038 10017 10017 10017 
+10017 10017 10017 10017 10017 10038 10017 10017 10027 10017 10017 10038 10017 10017 10017 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 </universes>
+    </lattice>
+    <lattice id="10245" name="Fuel 2.4% enr instr 12">
+        <pitch>1.25984 1.25984</pitch>
+        <dimension>17 17</dimension>
+        <lower_left>-10.70864 -10.70864</lower_left>
+        <universes>
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10017 10017 10017 10038 10017 10017 10027 10017 10017 10038 10017 10017 10017 10017 10017 
+10017 10017 10017 10038 10017 10017 10017 10017 10017 10017 10017 10017 10017 10038 10017 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10038 10017 10017 10027 10017 10017 10027 10017 10017 10027 10017 10017 10038 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10027 10017 10017 10027 10017 10017 10033 10017 10017 10027 10017 10017 10027 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10038 10017 10017 10027 10017 10017 10027 10017 10017 10027 10017 10017 10038 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10017 10038 10017 10017 10017 10017 10017 10017 10017 10017 10017 10038 10017 10017 10017 
+10017 10017 10017 10017 10017 10038 10017 10017 10027 10017 10017 10038 10017 10017 10017 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 </universes>
+    </lattice>
+    <lattice id="10272" name="Fuel 2.4% enr no instr 16">
+        <pitch>1.25984 1.25984</pitch>
+        <dimension>17 17</dimension>
+        <lower_left>-10.70864 -10.70864</lower_left>
+        <universes>
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10017 10017 10017 10038 10017 10017 10038 10017 10017 10038 10017 10017 10017 10017 10017 
+10017 10017 10017 10038 10017 10017 10017 10017 10017 10017 10017 10017 10017 10038 10017 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10038 10017 10017 10027 10017 10017 10027 10017 10017 10027 10017 10017 10038 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10038 10017 10017 10027 10017 10017 10029 10017 10017 10027 10017 10017 10038 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10038 10017 10017 10027 10017 10017 10027 10017 10017 10027 10017 10017 10038 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10017 10038 10017 10017 10017 10017 10017 10017 10017 10017 10017 10038 10017 10017 10017 
+10017 10017 10017 10017 10017 10038 10017 10017 10038 10017 10017 10038 10017 10017 10017 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 </universes>
+    </lattice>
+    <lattice id="10275" name="Fuel 2.4% enr instr 16">
+        <pitch>1.25984 1.25984</pitch>
+        <dimension>17 17</dimension>
+        <lower_left>-10.70864 -10.70864</lower_left>
+        <universes>
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10017 10017 10017 10038 10017 10017 10038 10017 10017 10038 10017 10017 10017 10017 10017 
+10017 10017 10017 10038 10017 10017 10017 10017 10017 10017 10017 10017 10017 10038 10017 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10038 10017 10017 10027 10017 10017 10027 10017 10017 10027 10017 10017 10038 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10038 10017 10017 10027 10017 10017 10033 10017 10017 10027 10017 10017 10038 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10038 10017 10017 10027 10017 10017 10027 10017 10017 10027 10017 10017 10038 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10017 10038 10017 10017 10017 10017 10017 10017 10017 10017 10017 10038 10017 10017 10017 
+10017 10017 10017 10017 10017 10038 10017 10017 10038 10017 10017 10038 10017 10017 10017 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 </universes>
+    </lattice>
+    <lattice id="10302" name="Fuel 2.4% enr no instr RCCA D">
+        <pitch>1.25984 1.25984</pitch>
+        <dimension>17 17</dimension>
+        <lower_left>-10.70864 -10.70864</lower_left>
+        <universes>
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10017 10017 10017 10051 10017 10017 10051 10017 10017 10051 10017 10017 10017 10017 10017 
+10017 10017 10017 10051 10017 10017 10017 10017 10017 10017 10017 10017 10017 10051 10017 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10051 10017 10017 10051 10017 10017 10051 10017 10017 10051 10017 10017 10051 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10051 10017 10017 10051 10017 10017 10029 10017 10017 10051 10017 10017 10051 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10051 10017 10017 10051 10017 10017 10051 10017 10017 10051 10017 10017 10051 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10017 10051 10017 10017 10017 10017 10017 10017 10017 10017 10017 10051 10017 10017 10017 
+10017 10017 10017 10017 10017 10051 10017 10017 10051 10017 10017 10051 10017 10017 10017 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 </universes>
+    </lattice>
+    <lattice id="10305" name="Fuel 2.4% enr instr RCCA D">
+        <pitch>1.25984 1.25984</pitch>
+        <dimension>17 17</dimension>
+        <lower_left>-10.70864 -10.70864</lower_left>
+        <universes>
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10017 10017 10017 10051 10017 10017 10051 10017 10017 10051 10017 10017 10017 10017 10017 
+10017 10017 10017 10051 10017 10017 10017 10017 10017 10017 10017 10017 10017 10051 10017 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10051 10017 10017 10051 10017 10017 10051 10017 10017 10051 10017 10017 10051 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10051 10017 10017 10051 10017 10017 10033 10017 10017 10051 10017 10017 10051 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10051 10017 10017 10051 10017 10017 10051 10017 10017 10051 10017 10017 10051 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10017 10051 10017 10017 10017 10017 10017 10017 10017 10017 10017 10051 10017 10017 10017 
+10017 10017 10017 10017 10017 10051 10017 10017 10051 10017 10017 10051 10017 10017 10017 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 
+10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 10017 </universes>
+    </lattice>
+    <lattice id="10338" name="Fuel 3.1% enr no instr no BAs">
+        <pitch>1.25984 1.25984</pitch>
+        <dimension>17 17</dimension>
+        <lower_left>-10.70864 -10.70864</lower_left>
+        <universes>
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 10019 10019 10019 
+10019 10019 10019 10027 10019 10019 10019 10019 10019 10019 10019 10019 10019 10027 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10027 10019 10019 10027 10019 10019 10029 10019 10019 10027 10019 10019 10027 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10027 10019 10019 10019 10019 10019 10019 10019 10019 10019 10027 10019 10019 10019 
+10019 10019 10019 10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 </universes>
+    </lattice>
+    <lattice id="10341" name="Fuel 3.1% enr instr no BAs">
+        <pitch>1.25984 1.25984</pitch>
+        <dimension>17 17</dimension>
+        <lower_left>-10.70864 -10.70864</lower_left>
+        <universes>
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 10019 10019 10019 
+10019 10019 10019 10027 10019 10019 10019 10019 10019 10019 10019 10019 10019 10027 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10027 10019 10019 10027 10019 10019 10033 10019 10019 10027 10019 10019 10027 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10027 10019 10019 10019 10019 10019 10019 10019 10019 10019 10027 10019 10019 10019 
+10019 10019 10019 10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 </universes>
+    </lattice>
+    <lattice id="10350" name="Fuel 3.1% enr no instr 6N">
+        <pitch>1.25984 1.25984</pitch>
+        <dimension>17 17</dimension>
+        <lower_left>-10.70864 -10.70864</lower_left>
+        <universes>
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10038 10019 10019 10027 10019 10019 10038 10019 10019 10019 10019 10019 
+10019 10019 10019 10038 10019 10019 10019 10019 10019 10019 10019 10019 10019 10038 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10038 10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 10038 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10027 10019 10019 10027 10019 10019 10029 10019 10019 10027 10019 10019 10027 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10027 10019 10019 10019 10019 10019 10019 10019 10019 10019 10027 10019 10019 10019 
+10019 10019 10019 10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 </universes>
+    </lattice>
+    <lattice id="10353" name="Fuel 3.1% enr instr 6N">
+        <pitch>1.25984 1.25984</pitch>
+        <dimension>17 17</dimension>
+        <lower_left>-10.70864 -10.70864</lower_left>
+        <universes>
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10038 10019 10019 10027 10019 10019 10038 10019 10019 10019 10019 10019 
+10019 10019 10019 10038 10019 10019 10019 10019 10019 10019 10019 10019 10019 10038 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10038 10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 10038 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10027 10019 10019 10027 10019 10019 10033 10019 10019 10027 10019 10019 10027 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10027 10019 10019 10019 10019 10019 10019 10019 10019 10019 10027 10019 10019 10019 
+10019 10019 10019 10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 </universes>
+    </lattice>
+    <lattice id="10356" name="Fuel 3.1% enr no instr 6S">
+        <pitch>1.25984 1.25984</pitch>
+        <dimension>17 17</dimension>
+        <lower_left>-10.70864 -10.70864</lower_left>
+        <universes>
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 10019 10019 10019 
+10019 10019 10019 10027 10019 10019 10019 10019 10019 10019 10019 10019 10019 10027 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10027 10019 10019 10027 10019 10019 10029 10019 10019 10027 10019 10019 10027 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10038 10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 10038 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10038 10019 10019 10019 10019 10019 10019 10019 10019 10019 10038 10019 10019 10019 
+10019 10019 10019 10019 10019 10038 10019 10019 10027 10019 10019 10038 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 </universes>
+    </lattice>
+    <lattice id="10359" name="Fuel 3.1% enr instr 6S">
+        <pitch>1.25984 1.25984</pitch>
+        <dimension>17 17</dimension>
+        <lower_left>-10.70864 -10.70864</lower_left>
+        <universes>
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 10019 10019 10019 
+10019 10019 10019 10027 10019 10019 10019 10019 10019 10019 10019 10019 10019 10027 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10027 10019 10019 10027 10019 10019 10033 10019 10019 10027 10019 10019 10027 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10038 10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 10038 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10038 10019 10019 10019 10019 10019 10019 10019 10019 10019 10038 10019 10019 10019 
+10019 10019 10019 10019 10019 10038 10019 10019 10027 10019 10019 10038 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 </universes>
+    </lattice>
+    <lattice id="10362" name="Fuel 3.1% enr no instr 6E">
+        <pitch>1.25984 1.25984</pitch>
+        <dimension>17 17</dimension>
+        <lower_left>-10.70864 -10.70864</lower_left>
+        <universes>
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10027 10019 10019 10027 10019 10019 10038 10019 10019 10019 10019 10019 
+10019 10019 10019 10027 10019 10019 10019 10019 10019 10019 10019 10019 10019 10038 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 10038 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10027 10019 10019 10027 10019 10019 10029 10019 10019 10027 10019 10019 10027 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 10038 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10027 10019 10019 10019 10019 10019 10019 10019 10019 10019 10038 10019 10019 10019 
+10019 10019 10019 10019 10019 10027 10019 10019 10027 10019 10019 10038 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 </universes>
+    </lattice>
+    <lattice id="10365" name="Fuel 3.1% enr instr 6E">
+        <pitch>1.25984 1.25984</pitch>
+        <dimension>17 17</dimension>
+        <lower_left>-10.70864 -10.70864</lower_left>
+        <universes>
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10027 10019 10019 10027 10019 10019 10038 10019 10019 10019 10019 10019 
+10019 10019 10019 10027 10019 10019 10019 10019 10019 10019 10019 10019 10019 10038 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 10038 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10027 10019 10019 10027 10019 10019 10033 10019 10019 10027 10019 10019 10027 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 10038 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10027 10019 10019 10019 10019 10019 10019 10019 10019 10019 10038 10019 10019 10019 
+10019 10019 10019 10019 10019 10027 10019 10019 10027 10019 10019 10038 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 </universes>
+    </lattice>
+    <lattice id="10368" name="Fuel 3.1% enr no instr 6W">
+        <pitch>1.25984 1.25984</pitch>
+        <dimension>17 17</dimension>
+        <lower_left>-10.70864 -10.70864</lower_left>
+        <universes>
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10038 10019 10019 10027 10019 10019 10027 10019 10019 10019 10019 10019 
+10019 10019 10019 10038 10019 10019 10019 10019 10019 10019 10019 10019 10019 10027 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10038 10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10027 10019 10019 10027 10019 10019 10029 10019 10019 10027 10019 10019 10027 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10038 10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10038 10019 10019 10019 10019 10019 10019 10019 10019 10019 10027 10019 10019 10019 
+10019 10019 10019 10019 10019 10038 10019 10019 10027 10019 10019 10027 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 </universes>
+    </lattice>
+    <lattice id="10386" name="Fuel 3.1% enr no instr 15NW">
+        <pitch>1.25984 1.25984</pitch>
+        <dimension>17 17</dimension>
+        <lower_left>-10.70864 -10.70864</lower_left>
+        <universes>
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10038 10019 10019 10038 10019 10019 10038 10019 10019 10019 10019 10019 
+10019 10019 10019 10038 10019 10019 10019 10019 10019 10019 10019 10019 10019 10027 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10038 10019 10019 10038 10019 10019 10038 10019 10019 10038 10019 10019 10027 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10038 10019 10019 10038 10019 10019 10029 10019 10019 10038 10019 10019 10027 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10038 10019 10019 10038 10019 10019 10038 10019 10019 10038 10019 10019 10027 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10027 10019 10019 10019 10019 10019 10019 10019 10019 10019 10027 10019 10019 10019 
+10019 10019 10019 10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 </universes>
+    </lattice>
+    <lattice id="10395" name="Fuel 3.1% enr instr 15NE">
+        <pitch>1.25984 1.25984</pitch>
+        <dimension>17 17</dimension>
+        <lower_left>-10.70864 -10.70864</lower_left>
+        <universes>
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10038 10019 10019 10038 10019 10019 10038 10019 10019 10019 10019 10019 
+10019 10019 10019 10027 10019 10019 10019 10019 10019 10019 10019 10019 10019 10038 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10027 10019 10019 10038 10019 10019 10038 10019 10019 10038 10019 10019 10038 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10027 10019 10019 10038 10019 10019 10033 10019 10019 10038 10019 10019 10038 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10027 10019 10019 10038 10019 10019 10038 10019 10019 10038 10019 10019 10038 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10027 10019 10019 10019 10019 10019 10019 10019 10019 10019 10027 10019 10019 10019 
+10019 10019 10019 10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 </universes>
+    </lattice>
+    <lattice id="10398" name="Fuel 3.1% enr no instr 15SW">
+        <pitch>1.25984 1.25984</pitch>
+        <dimension>17 17</dimension>
+        <lower_left>-10.70864 -10.70864</lower_left>
+        <universes>
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 10019 10019 10019 
+10019 10019 10019 10027 10019 10019 10019 10019 10019 10019 10019 10019 10019 10027 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10038 10019 10019 10038 10019 10019 10038 10019 10019 10038 10019 10019 10027 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10038 10019 10019 10038 10019 10019 10029 10019 10019 10038 10019 10019 10027 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10038 10019 10019 10038 10019 10019 10038 10019 10019 10038 10019 10019 10027 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10038 10019 10019 10019 10019 10019 10019 10019 10019 10019 10027 10019 10019 10019 
+10019 10019 10019 10019 10019 10038 10019 10019 10038 10019 10019 10038 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 </universes>
+    </lattice>
+    <lattice id="10404" name="Fuel 3.1% enr no instr 15SE">
+        <pitch>1.25984 1.25984</pitch>
+        <dimension>17 17</dimension>
+        <lower_left>-10.70864 -10.70864</lower_left>
+        <universes>
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 10019 10019 10019 
+10019 10019 10019 10027 10019 10019 10019 10019 10019 10019 10019 10019 10019 10027 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10027 10019 10019 10038 10019 10019 10038 10019 10019 10038 10019 10019 10038 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10027 10019 10019 10038 10019 10019 10029 10019 10019 10038 10019 10019 10038 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10027 10019 10019 10038 10019 10019 10038 10019 10019 10038 10019 10019 10038 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10027 10019 10019 10019 10019 10019 10019 10019 10019 10019 10038 10019 10019 10019 
+10019 10019 10019 10019 10019 10038 10019 10019 10038 10019 10019 10038 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 </universes>
+    </lattice>
+    <lattice id="10410" name="Fuel 3.1% enr no instr 16">
+        <pitch>1.25984 1.25984</pitch>
+        <dimension>17 17</dimension>
+        <lower_left>-10.70864 -10.70864</lower_left>
+        <universes>
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10038 10019 10019 10038 10019 10019 10038 10019 10019 10019 10019 10019 
+10019 10019 10019 10038 10019 10019 10019 10019 10019 10019 10019 10019 10019 10038 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10038 10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 10038 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10038 10019 10019 10027 10019 10019 10029 10019 10019 10027 10019 10019 10038 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10038 10019 10019 10027 10019 10019 10027 10019 10019 10027 10019 10019 10038 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10038 10019 10019 10019 10019 10019 10019 10019 10019 10019 10038 10019 10019 10019 
+10019 10019 10019 10019 10019 10038 10019 10019 10038 10019 10019 10038 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 </universes>
+    </lattice>
+    <lattice id="10416" name="Fuel 3.1% enr no instr 20">
+        <pitch>1.25984 1.25984</pitch>
+        <dimension>17 17</dimension>
+        <lower_left>-10.70864 -10.70864</lower_left>
+        <universes>
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10038 10019 10019 10038 10019 10019 10038 10019 10019 10019 10019 10019 
+10019 10019 10019 10038 10019 10019 10019 10019 10019 10019 10019 10019 10019 10038 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10038 10019 10019 10038 10019 10019 10027 10019 10019 10038 10019 10019 10038 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10038 10019 10019 10027 10019 10019 10029 10019 10019 10027 10019 10019 10038 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10038 10019 10019 10038 10019 10019 10027 10019 10019 10038 10019 10019 10038 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10038 10019 10019 10019 10019 10019 10019 10019 10019 10019 10038 10019 10019 10019 
+10019 10019 10019 10019 10019 10038 10019 10019 10038 10019 10019 10038 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 </universes>
+    </lattice>
+    <lattice id="10419" name="Fuel 3.1% enr instr 20">
+        <pitch>1.25984 1.25984</pitch>
+        <dimension>17 17</dimension>
+        <lower_left>-10.70864 -10.70864</lower_left>
+        <universes>
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10038 10019 10019 10038 10019 10019 10038 10019 10019 10019 10019 10019 
+10019 10019 10019 10038 10019 10019 10019 10019 10019 10019 10019 10019 10019 10038 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10038 10019 10019 10038 10019 10019 10027 10019 10019 10038 10019 10019 10038 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10038 10019 10019 10027 10019 10019 10033 10019 10019 10027 10019 10019 10038 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10038 10019 10019 10038 10019 10019 10027 10019 10019 10038 10019 10019 10038 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10038 10019 10019 10019 10019 10019 10019 10019 10019 10019 10038 10019 10019 10019 
+10019 10019 10019 10019 10019 10038 10019 10019 10038 10019 10019 10038 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 </universes>
+    </lattice>
+    <lattice id="10446" name="Fuel 3.1% enr no instr RCCA SA">
+        <pitch>1.25984 1.25984</pitch>
+        <dimension>17 17</dimension>
+        <lower_left>-10.70864 -10.70864</lower_left>
+        <universes>
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10053 10019 10019 10053 10019 10019 10053 10019 10019 10019 10019 10019 
+10019 10019 10019 10053 10019 10019 10019 10019 10019 10019 10019 10019 10019 10053 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10053 10019 10019 10053 10019 10019 10053 10019 10019 10053 10019 10019 10053 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10053 10019 10019 10053 10019 10019 10029 10019 10019 10053 10019 10019 10053 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10053 10019 10019 10053 10019 10019 10053 10019 10019 10053 10019 10019 10053 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10053 10019 10019 10019 10019 10019 10019 10019 10019 10019 10053 10019 10019 10019 
+10019 10019 10019 10019 10019 10053 10019 10019 10053 10019 10019 10053 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 </universes>
+    </lattice>
+    <lattice id="10449" name="Fuel 3.1% enr instr RCCA SA">
+        <pitch>1.25984 1.25984</pitch>
+        <dimension>17 17</dimension>
+        <lower_left>-10.70864 -10.70864</lower_left>
+        <universes>
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10053 10019 10019 10053 10019 10019 10053 10019 10019 10019 10019 10019 
+10019 10019 10019 10053 10019 10019 10019 10019 10019 10019 10019 10019 10019 10053 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10053 10019 10019 10053 10019 10019 10053 10019 10019 10053 10019 10019 10053 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10053 10019 10019 10053 10019 10019 10033 10019 10019 10053 10019 10019 10053 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10053 10019 10019 10053 10019 10019 10053 10019 10019 10053 10019 10019 10053 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10053 10019 10019 10019 10019 10019 10019 10019 10019 10019 10053 10019 10019 10019 
+10019 10019 10019 10019 10019 10053 10019 10019 10053 10019 10019 10053 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 
+10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 10019 </universes>
+    </lattice>
+    <lattice id="10764" name="Core Lattice">
+        <pitch>21.50364 21.50364</pitch>
+        <dimension>19 19</dimension>
+        <lower_left>-204.28458 -204.28458</lower_left>
+        <universes>
+10000 10000 10000 10000 10000 10000 10000 10000 10000 10000 10000 10000 10000 10000 10000 10000 10000 10000 10000 
+10000 10000 10000 10000 10000 10762 10754 10754 10754 10754 10754 10754 10754 10761 10000 10000 10000 10000 10000 
+10000 10000 10000 10762 10754 10758 10339 10357 10342 10357 10339 10360 10339 10757 10754 10761 10000 10000 10000 
+10000 10000 10762 10758 10342 10447 10411 10156 10417 10162 10417 10153 10411 10447 10339 10757 10761 10000 10000 
+10000 10000 10755 10339 10405 10273 10189 10273 10177 10276 10177 10276 10183 10276 10399 10342 10753 10000 10000 
+10000 10762 10758 10450 10276 10303 10273 10063 10243 10198 10243 10063 10273 10303 10273 10447 10757 10761 10000 
+10000 10755 10339 10411 10183 10273 10066 10243 10063 10243 10066 10243 10066 10273 10192 10411 10339 10753 10000 
+10000 10755 10366 10153 10276 10063 10243 10162 10243 10150 10243 10159 10243 10063 10273 10156 10369 10753 10000 
+10000 10755 10339 10417 10177 10246 10063 10243 10066 10273 10063 10246 10063 10243 10180 10417 10339 10753 10000 
+10000 10755 10366 10159 10276 10195 10246 10147 10276 10165 10273 10150 10243 10198 10276 10162 10369 10753 10000 
+10000 10755 10339 10420 10177 10243 10063 10243 10063 10273 10066 10243 10066 10243 10177 10417 10342 10753 10000 
+10000 10755 10363 10153 10273 10063 10246 10159 10246 10147 10243 10159 10243 10066 10273 10153 10369 10753 10000 
+10000 10755 10342 10411 10189 10273 10066 10243 10063 10246 10063 10243 10066 10273 10183 10411 10342 10753 10000 
+10000 10763 10759 10447 10273 10303 10273 10066 10243 10195 10246 10063 10273 10306 10273 10447 10756 10760 10000 
+10000 10000 10755 10339 10396 10273 10186 10273 10177 10276 10177 10273 10189 10273 10387 10342 10753 10000 10000 
+10000 10000 10763 10759 10342 10447 10411 10153 10420 10159 10417 10156 10411 10450 10339 10756 10760 10000 10000 
+10000 10000 10000 10763 10752 10759 10342 10351 10339 10354 10339 10351 10339 10756 10752 10760 10000 10000 10000 
+10000 10000 10000 10000 10000 10763 10752 10752 10752 10752 10752 10752 10752 10760 10000 10000 10000 10000 10000 
+10000 10000 10000 10000 10000 10000 10000 10000 10000 10000 10000 10000 10000 10000 10000 10000 10000 10000 10000 </universes>
+    </lattice>
+    <surface coeffs="20.0" id="10000" name="Support plate bottom" type="z-plane" />
+    <surface coeffs="35.0" id="10003" name="Lower nozzle top" type="z-plane" />
+    <surface coeffs="423.049" id="10004" name="Upper nozzle bottom" type="z-plane" />
+    <surface coeffs="431.876" id="10005" name="Upper nozzle top" type="z-plane" />
+    <surface coeffs="-0.61015" id="10006" name="minimum x" type="x-plane" />
+    <surface coeffs="0.61015" id="10007" name="maximum x" type="x-plane" />
+    <surface coeffs="-0.61015" id="10008" name="minimum y" type="y-plane" />
+    <surface coeffs="0.61015" id="10009" name="maximum y" type="y-plane" />
+    <surface coeffs="-0.61049" id="10010" name="minimum x" type="x-plane" />
+    <surface coeffs="0.61049" id="10011" name="maximum x" type="x-plane" />
+    <surface coeffs="-0.61049" id="10012" name="minimum y" type="y-plane" />
+    <surface coeffs="0.61049" id="10013" name="maximum y" type="y-plane" />
+    <surface coeffs="-10.747975" id="10014" name="minimum x" type="x-plane" />
+    <surface coeffs="10.747975" id="10015" name="maximum x" type="x-plane" />
+    <surface coeffs="-10.747975" id="10016" name="minimum y" type="y-plane" />
+    <surface coeffs="10.747975" id="10017" name="maximum y" type="y-plane" />
+    <surface coeffs="37.1621" id="10018" name="Bottom of grid 1" type="z-plane" />
+    <surface coeffs="40.52" id="10019" name="Top of grid 1" type="z-plane" />
+    <surface coeffs="98.025" id="10020" name="Bottom of grid 2" type="z-plane" />
+    <surface coeffs="103.74" id="10021" name="Top of grid 2" type="z-plane" />
+    <surface coeffs="150.222" id="10022" name="Bottom of grid 3" type="z-plane" />
+    <surface coeffs="155.937" id="10023" name="Top of grid 3" type="z-plane" />
+    <surface coeffs="202.419" id="10024" name="Bottom of grid 4" type="z-plane" />
+    <surface coeffs="208.134" id="10025" name="Top of grid 4" type="z-plane" />
+    <surface coeffs="254.616" id="10026" name="Bottom of grid 5" type="z-plane" />
+    <surface coeffs="260.331" id="10027" name="Top of grid 5" type="z-plane" />
+    <surface coeffs="306.813" id="10028" name="Bottom of grid 6" type="z-plane" />
+    <surface coeffs="312.528" id="10029" name="Top of grid 6" type="z-plane" />
+    <surface coeffs="359.01" id="10030" name="Bottom of grid 7" type="z-plane" />
+    <surface coeffs="364.725" id="10031" name="Top of grid 7" type="z-plane" />
+    <surface coeffs="411.806" id="10032" name="Bottom of grid 8" type="z-plane" />
+    <surface coeffs="415.164" id="10033" name="Top of grid 8" type="z-plane" />
+    <surface coeffs="0.0 0.0 0.39218" id="10034" name="Fuel pellet OR" type="z-cylinder" />
+    <surface coeffs="0.0 0.0 0.40005" id="10035" name="Fuel clad IR" type="z-cylinder" />
+    <surface coeffs="0.0 0.0 0.4572" id="10036" name="Fuel clad OR" type="z-cylinder" />
+    <surface coeffs="0.0 0.0 0.06459" id="10037" name="Fuel rod plenum spring OR" type="z-cylinder" />
+    <surface coeffs="35.0" id="10038" name="Fuel rod bottom" type="z-plane" />
+    <surface coeffs="36.748" id="10039" name="Fuel lower fitting top" type="z-plane" />
+    <surface coeffs="402.508" id="10040" name="Fuel active region top" type="z-plane" />
+    <surface coeffs="417.164" id="10041" name="Fuel plenum top" type="z-plane" />
+    <surface coeffs="419.704" id="10042" name="Fuel upper fitting top" type="z-plane" />
+    <surface coeffs="0.0 0.0 0.56134" id="10043" name="Guide tube IR" type="z-cylinder" />
+    <surface coeffs="0.0 0.0 0.60198" id="10044" name="Guide tube OR" type="z-cylinder" />
+    <surface coeffs="0.0 0.0 0.50419" id="10045" name="Guide tube IR below dashpot" type="z-cylinder" />
+    <surface coeffs="0.0 0.0 0.5461" id="10046" name="Guide tube OR below dashpot" type="z-cylinder" />
+    <surface coeffs="35.0" id="10047" name="Bottom of GT rod" type="z-plane" />
+    <surface coeffs="39.958" id="10048" name="GT Dashpot plane" type="z-plane" />
+    <surface coeffs="423.049" id="10049" name="Top of GT rod" type="z-plane" />
+    <surface coeffs="0.0 0.0 0.43688" id="10050" name="Instrument tube thimble IR" type="z-cylinder" />
+    <surface coeffs="0.0 0.0 0.48387" id="10051" name="Instrument tube thimble OR" type="z-cylinder" />
+    <surface coeffs="0.0 0.0 0.214" id="10052" name="BPRA rod radius 1" type="z-cylinder" />
+    <surface coeffs="0.0 0.0 0.23051" id="10053" name="BPRA rod radius 2" type="z-cylinder" />
+    <surface coeffs="0.0 0.0 0.2413" id="10054" name="BPRA rod radius 3" type="z-cylinder" />
+    <surface coeffs="0.0 0.0 0.42672" id="10055" name="BPRA rod radius 4" type="z-cylinder" />
+    <surface coeffs="0.0 0.0 0.43688" id="10056" name="BPRA rod radius 5" type="z-cylinder" />
+    <surface coeffs="0.0 0.0 0.48387" id="10057" name="BPRA rod radius 6" type="z-cylinder" />
+    <surface coeffs="38.66" id="10058" name="Bottom of BPRA rod" type="z-plane" />
+    <surface coeffs="40.558" id="10059" name="Top of lower fitting in BPRA rod" type="z-plane" />
+    <surface coeffs="401.238" id="10060" name="Top of active poison in BPRA rod" type="z-plane" />
+    <surface coeffs="421.532" id="10061" name="Top of plenum in BPRA rod" type="z-plane" />
+    <surface coeffs="431.876" id="10062" name="Top of BPRA rod" type="z-plane" />
+    <surface coeffs="0.0 0.0 0.38608" id="10063" name="RCCA rod clad IR" type="z-cylinder" />
+    <surface coeffs="0.0 0.0 0.48387" id="10064" name="RCCA rod clad OR" type="z-cylinder" />
+    <surface coeffs="0.0 0.0 0.37338" id="10065" name="RCCA rod B4C OR" type="z-cylinder" />
+    <surface coeffs="0.0 0.0 0.38227" id="10066" name="RCCA rod AIC OR" type="z-cylinder" />
+    <surface coeffs="0.0 0.0 0.37845" id="10067" name="RCCA rod spacer OR" type="z-cylinder" />
+    <surface coeffs="0.0 0.0 0.06459" id="10068" name="RCCA rod plenum spring OR" type="z-cylinder" />
+    <surface coeffs="400.63804000000005" id="10069" name="Bottom of RCCA rod bank A" type="z-plane" />
+    <surface coeffs="402.50804000000005" id="10070" name="Top of RCCA rod lower fitting bank A" type="z-plane" />
+    <surface coeffs="504.10804" id="10071" name="Top of RCCA rod AIC bank A" type="z-plane" />
+    <surface coeffs="763.18804" id="10072" name="Top of RCCA rod B4C bank A" type="z-plane" />
+    <surface coeffs="764.45804" id="10073" name="Top of RCCA rod spacer bank A" type="z-plane" />
+    <surface coeffs="776.23804" id="10074" name="Top of RCCA rod plenum bank A" type="z-plane" />
+    <surface coeffs="400.63804000000005" id="10075" name="Bottom of RCCA rod bank B" type="z-plane" />
+    <surface coeffs="402.50804000000005" id="10076" name="Top of RCCA rod lower fitting bank B" type="z-plane" />
+    <surface coeffs="504.10804" id="10077" name="Top of RCCA rod AIC bank B" type="z-plane" />
+    <surface coeffs="763.18804" id="10078" name="Top of RCCA rod B4C bank B" type="z-plane" />
+    <surface coeffs="764.45804" id="10079" name="Top of RCCA rod spacer bank B" type="z-plane" />
+    <surface coeffs="776.23804" id="10080" name="Top of RCCA rod plenum bank B" type="z-plane" />
+    <surface coeffs="400.63804000000005" id="10081" name="Bottom of RCCA rod bank C" type="z-plane" />
+    <surface coeffs="402.50804000000005" id="10082" name="Top of RCCA rod lower fitting bank C" type="z-plane" />
+    <surface coeffs="504.10804" id="10083" name="Top of RCCA rod AIC bank C" type="z-plane" />
+    <surface coeffs="763.18804" id="10084" name="Top of RCCA rod B4C bank C" type="z-plane" />
+    <surface coeffs="764.45804" id="10085" name="Top of RCCA rod spacer bank C" type="z-plane" />
+    <surface coeffs="776.23804" id="10086" name="Top of RCCA rod plenum bank C" type="z-plane" />
+    <surface coeffs="376.90909" id="10087" name="Bottom of RCCA rod bank D" type="z-plane" />
+    <surface coeffs="378.77909" id="10088" name="Top of RCCA rod lower fitting bank D" type="z-plane" />
+    <surface coeffs="480.37909" id="10089" name="Top of RCCA rod AIC bank D" type="z-plane" />
+    <surface coeffs="739.4590900000001" id="10090" name="Top of RCCA rod B4C bank D" type="z-plane" />
+    <surface coeffs="740.72909" id="10091" name="Top of RCCA rod spacer bank D" type="z-plane" />
+    <surface coeffs="752.50909" id="10092" name="Top of RCCA rod plenum bank D" type="z-plane" />
+    <surface coeffs="400.63804000000005" id="10093" name="Bottom of RCCA rod bank SA" type="z-plane" />
+    <surface coeffs="402.50804000000005" id="10094" name="Top of RCCA rod lower fitting bank SA" type="z-plane" />
+    <surface coeffs="504.10804" id="10095" name="Top of RCCA rod AIC bank SA" type="z-plane" />
+    <surface coeffs="763.18804" id="10096" name="Top of RCCA rod B4C bank SA" type="z-plane" />
+    <surface coeffs="764.45804" id="10097" name="Top of RCCA rod spacer bank SA" type="z-plane" />
+    <surface coeffs="776.23804" id="10098" name="Top of RCCA rod plenum bank SA" type="z-plane" />
+    <surface coeffs="400.63804000000005" id="10099" name="Bottom of RCCA rod bank SB" type="z-plane" />
+    <surface coeffs="402.50804000000005" id="10100" name="Top of RCCA rod lower fitting bank SB" type="z-plane" />
+    <surface coeffs="504.10804" id="10101" name="Top of RCCA rod AIC bank SB" type="z-plane" />
+    <surface coeffs="763.18804" id="10102" name="Top of RCCA rod B4C bank SB" type="z-plane" />
+    <surface coeffs="764.45804" id="10103" name="Top of RCCA rod spacer bank SB" type="z-plane" />
+    <surface coeffs="776.23804" id="10104" name="Top of RCCA rod plenum bank SB" type="z-plane" />
+    <surface coeffs="400.63804000000005" id="10105" name="Bottom of RCCA rod bank SC" type="z-plane" />
+    <surface coeffs="402.50804000000005" id="10106" name="Top of RCCA rod lower fitting bank SC" type="z-plane" />
+    <surface coeffs="504.10804" id="10107" name="Top of RCCA rod AIC bank SC" type="z-plane" />
+    <surface coeffs="763.18804" id="10108" name="Top of RCCA rod B4C bank SC" type="z-plane" />
+    <surface coeffs="764.45804" id="10109" name="Top of RCCA rod spacer bank SC" type="z-plane" />
+    <surface coeffs="776.23804" id="10110" name="Top of RCCA rod plenum bank SC" type="z-plane" />
+    <surface coeffs="400.63804000000005" id="10111" name="Bottom of RCCA rod bank SD" type="z-plane" />
+    <surface coeffs="402.50804000000005" id="10112" name="Top of RCCA rod lower fitting bank SD" type="z-plane" />
+    <surface coeffs="504.10804" id="10113" name="Top of RCCA rod AIC bank SD" type="z-plane" />
+    <surface coeffs="763.18804" id="10114" name="Top of RCCA rod B4C bank SD" type="z-plane" />
+    <surface coeffs="764.45804" id="10115" name="Top of RCCA rod spacer bank SD" type="z-plane" />
+    <surface coeffs="776.23804" id="10116" name="Top of RCCA rod plenum bank SD" type="z-plane" />
+    <surface coeffs="400.63804000000005" id="10117" name="Bottom of RCCA rod bank SE" type="z-plane" />
+    <surface coeffs="402.50804000000005" id="10118" name="Top of RCCA rod lower fitting bank SE" type="z-plane" />
+    <surface coeffs="504.10804" id="10119" name="Top of RCCA rod AIC bank SE" type="z-plane" />
+    <surface coeffs="763.18804" id="10120" name="Top of RCCA rod B4C bank SE" type="z-plane" />
+    <surface coeffs="764.45804" id="10121" name="Top of RCCA rod spacer bank SE" type="z-plane" />
+    <surface coeffs="776.23804" id="10122" name="Top of RCCA rod plenum bank SE" type="z-plane" />
+    <surface coeffs="-10.70864" id="10123" name="minimum x" type="x-plane" />
+    <surface coeffs="10.70864" id="10124" name="maximum x" type="x-plane" />
+    <surface coeffs="-10.70864" id="10125" name="minimum y" type="y-plane" />
+    <surface coeffs="10.70864" id="10126" name="maximum y" type="y-plane" />
+    <surface coeffs="0.0 0.0 4000.0" id="10131" name="Dummy filling universe" type="z-cylinder" />
+    <surface coeffs="10.589120000000001" id="10132" name="North Baffle Water Gap Surface" type="y-plane" />
+    <surface coeffs="8.366620000000001" id="10133" name="North Baffle Surface" type="y-plane" />
+    <surface coeffs="-10.589120000000001" id="10134" name="West Baffle Water Gap Surface" type="x-plane" />
+    <surface coeffs="-8.366620000000001" id="10135" name="West Baffle Surface" type="x-plane" />
+    <surface boundary="vacuum" coeffs="460.0" id="10136" name="Highest Extent" type="z-plane" />
+    <surface boundary="vacuum" coeffs="0.0" id="10137" name="Lowest Extent" type="z-plane" />
+    <surface boundary="vacuum" coeffs="0.0 0.0 241.3" id="10138" name="RPV OR" type="z-cylinder" />
+    <surface coeffs="0.0 0.0 219.71" id="10139" name="RPV IR" type="z-cylinder" />
+    <surface coeffs="0.0 0.0 219.15" id="10140" name="RPV Liner IR" type="z-cylinder" />
+    <surface coeffs="0.0 0.0 201.63" id="10141" name="Shield Panel OR" type="z-cylinder" />
+    <surface coeffs="0.0 0.0 194.84" id="10142" name="Shield Panel IR" type="z-cylinder" />
+    <surface coeffs="1 1.8040477552714236 0 0" id="10143" name="Shield Panel NWbot/SEtop" type="plane" />
+    <surface coeffs="1 0.5543090514527688 0 0" id="10144" name="Shield Panel NWtop/SEbot" type="plane" />
+    <surface coeffs="1 -1.8040477552714236 0 0" id="10145" name="Shield Panel NEbot/SWtop" type="plane" />
+    <surface coeffs="1 -0.5543090514527688 0 0" id="10146" name="Shield Panel NEtop/SWbot" type="plane" />
+    <surface coeffs="0.0 0.0 193.675" id="10147" name="Core Barrel OR" type="z-cylinder" />
+    <surface coeffs="0.0 0.0 187.96" id="10148" name="Core Barrel IR" type="z-cylinder" />
+</geometry>
