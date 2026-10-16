@@ -9,8 +9,11 @@ Because the BEAVRS repository gets regular updates to improve the accuracy and f
 
 __This repository supports the paper presented at PHYSOR 2026, and the subsequent NSE publication. Please cite the paper you use if you use any these materials.__
 
+
 __PHYSOR 2026 paper with benchmark results for LANL based ENDF/B-VII.1 cross section library:__
+
 B. R. Oteri, B. Forget, A. Osborne, & J. Liang. (2026, April 23). A Systematic Re-evaluation of the BEAVRS Benchmark with OpenMC. Proceedings of PHYSOR 2026 International Conference. PHYSOR 2026 - The International Conference on Physics of Reactors (PHYSOR 2026), Torino, Italy. https://doi.org/10.5281/zenodo.20803978
 
 __NSE paper with benchmark results for ENDF/B-VIII.1 cross section library:__
+
 B. R. Oteri, B. Forget, A. Osborne, & J. Liang. (2026). Uncertainty Analysis and Re-evaluation of BEAVRS Benchmark with OpenMC and ENDF/B-VIII.1. 
