@@ -7,7 +7,9 @@ Because the BEAVRS repository gets regular updates to improve the accuracy and f
 
 - If wanting to use the most up to date version of BEAVRS, it is recommended  to use the main MIT-CRPG repository.
 
-__This repository supports the paper presented at PHYSOR 2026, and the subsequent NSE publication. Please cite the paper you use if you use any these materials.__
+
+
+## This repository supports the paper presented at PHYSOR 2026, and the subsequent NSE publication. Please cite the paper you use if you use any these materials.
 
 
 __PHYSOR 2026 paper with benchmark results for LANL based ENDF/B-VII.1 cross section library:__
