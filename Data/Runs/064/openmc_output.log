@@ -1,0 +1,1051 @@
+Job has started!
+=== Control Rod Configuration: {'A': 0, 'B': 0, 'C': 0, 'D': 0, 'SA': 228, 'SB': 228, 'SC': 228, 'SD': 228, 'SE': 0} ===
+=== Boron PPM: 686 ===
+                                %%%%%%%%%%%%%%%
+                           %%%%%%%%%%%%%%%%%%%%%%%%
+                        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                                    %%%%%%%%%%%%%%%%%%%%%%%%
+                                     %%%%%%%%%%%%%%%%%%%%%%%%
+                 ###############      %%%%%%%%%%%%%%%%%%%%%%%%
+                ##################     %%%%%%%%%%%%%%%%%%%%%%%
+                ###################     %%%%%%%%%%%%%%%%%%%%%%%
+                ####################     %%%%%%%%%%%%%%%%%%%%%%
+                #####################     %%%%%%%%%%%%%%%%%%%%%
+                ######################     %%%%%%%%%%%%%%%%%%%%
+                #######################     %%%%%%%%%%%%%%%%%%
+                 #######################     %%%%%%%%%%%%%%%%%
+                 ######################     %%%%%%%%%%%%%%%%%
+                  ####################     %%%%%%%%%%%%%%%%%
+                    #################     %%%%%%%%%%%%%%%%%
+                     ###############     %%%%%%%%%%%%%%%%
+                       ############     %%%%%%%%%%%%%%%
+                          ########     %%%%%%%%%%%%%%
+                                      %%%%%%%%%%%
+
+                 | The OpenMC Monte Carlo Code
+       Copyright | 2011-2025 MIT, UChicago Argonne LLC, and contributors
+         License | https://docs.openmc.org/en/latest/license.html
+         Version | 0.15.2
+     Commit Hash | e23760b0264c66fb7bb373aa0596801e5209d920
+       Date/Time | 2026-05-28 20:44:38
+  OpenMP Threads | 40
+
+ Reading settings XML file...
+ Reading cross sections XML file...
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_Al27.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_Al_in_Al2O3.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_Be.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_Be_distinct.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_Be_in_Be2C.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_Be_in_BeF2.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_Be_in_BeO.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_Be_in_FLiBe.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_C6H6.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_C_in_Be2C.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_C_in_C5O2H8.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_C_in_C8H8.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_C_in_CF2.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_C_in_SiC.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_C_in_UC.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_C_in_UC_100p.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_C_in_UC_10p.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_C_in_UC_5p.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_C_in_UC_HALEU.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_C_in_UC_HEU.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_C_in_ZrC.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_Ca_in_CaH2.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_D_in_7LiD.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_D_in_D2O.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_F_in_Be2.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_F_in_CF2.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_F_in_FLiBe.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_F_in_HF.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_F_in_MgF2.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_Fe56.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_Graphite.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_Graphite_10p.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_Graphite_20p.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_Graphite_30p.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_Graphite_distinct.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_H1_in_CaH2.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_H2_in_CaH2.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_H_in_7LiH.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_H_in_C5O2H8.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_H_in_C8H8.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_H_in_CH2.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_H_in_CH4_liquid.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_H_in_CH4_solid.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_H_in_H2O_solid.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_H_in_HF.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_H_in_ParaffinicOil.h5 does not
+          exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_H_in_UH3.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_H_in_YH2.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_H_in_ZrH.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_H_in_ZrH2.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_H_in_ZrHx.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_Li_in_7LiD.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_Li_in_7LiH.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_Li_in_FLiBe.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_Mg_in_MgF2.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_Mg_in_MgO.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_N_in_UN.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_N_in_UN_100p.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_N_in_UN_10p.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_N_in_UN_5p.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_N_in_UN_HALEU.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_N_in_UN_HEU.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_O_in_Al2O3.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_O_in_BeO.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_O_in_C5O2H8.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_O_in_D2O.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_O_in_H2O_solid.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_O_in_MgO.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_O_in_PuO2.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_O_in_SiO2_alpha.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_O_in_UO2.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_O_in_UO2_100p.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_O_in_UO2_10p.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_O_in_UO2_5p.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_O_in_UO2_HALEU.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_O_in_UO2_HEU.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_Pu_in_PuO2.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_SiO2_beta.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_Si_in_SiC.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_Si_in_SiO2_alpha.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_U_in_UC.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_U_in_UC_100p.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_U_in_UC_10p.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_U_in_UC_5p.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_U_in_UC_HALEU.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_U_in_UC_HEU.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_U_in_UN.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_U_in_UN_100p.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_U_in_UN_10p.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_U_in_UN_5p.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_U_in_UN_HALEU.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_U_in_UN_HEU.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_U_in_UO2.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_U_in_UO2_HALEU.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_U_in_UO2_HEU.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_U_metal.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_U_metal_100p.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_U_metal_10p.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_U_metal_5p.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_U_metal_HALEU.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_U_metal_HEU.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_Y_in_YH2.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_Zr_in_ZrC.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_Zr_in_ZrH.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_Zr_in_ZrH2.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_Zr_in_ZrHx.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_ortho_D.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_ortho_H.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_para_D.h5 does not exist.
+ WARNING: Cross section library
+          /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libr
+          aries/endfb-viii.1-hdf5/thermal/c_para_H.h5 does not exist.
+ Reading materials XML file...
+ Reading geometry XML file...
+ Reading O16 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/O16.h5
+ Reading O17 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/O17.h5
+ Reading O18 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/O18.h5
+ Reading N14 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/N14.h5
+ Reading N15 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/N15.h5
+ Reading Ar36 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Ar36.h5
+ WARNING: Negative value(s) found on probability table for nuclide Ar36 at 294K
+ WARNING: Negative value(s) found on probability table for nuclide Ar36 at 600K
+ Reading Ar38 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Ar38.h5
+ Reading Ar40 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Ar40.h5
+ Reading C12 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/C12.h5
+ Reading C13 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/C13.h5
+ Reading Si28 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Si28.h5
+ Reading Si29 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Si29.h5
+ Reading Si30 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Si30.h5
+ Reading Cr50 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Cr50.h5
+ Reading Cr52 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Cr52.h5
+ Reading Cr53 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Cr53.h5
+ Reading Cr54 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Cr54.h5
+ Reading Mn55 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Mn55.h5
+ Reading Fe54 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Fe54.h5
+ Reading Fe56 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Fe56.h5
+ Reading Fe57 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Fe57.h5
+ Reading Fe58 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Fe58.h5
+ Reading Ni58 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Ni58.h5
+ Reading Ni60 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Ni60.h5
+ Reading Ni61 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Ni61.h5
+ Reading Ni62 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Ni62.h5
+ Reading Ni64 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Ni64.h5
+ Reading Ag107 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Ag107.h5
+ Reading Ag109 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Ag109.h5
+ Reading In113 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/In113.h5
+ Reading In115 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/In115.h5
+ Reading Cd106 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Cd106.h5
+ WARNING: Negative value(s) found on probability table for nuclide Cd106 at 294K
+ WARNING: Negative value(s) found on probability table for nuclide Cd106 at 600K
+ Reading Cd108 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Cd108.h5
+ Reading Cd110 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Cd110.h5
+ Reading Cd111 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Cd111.h5
+ Reading Cd112 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Cd112.h5
+ Reading Cd113 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Cd113.h5
+ Reading Cd114 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Cd114.h5
+ Reading Cd116 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Cd116.h5
+ Reading B10 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/B10.h5
+ Reading B11 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/B11.h5
+ Reading He3 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/He3.h5
+ Reading He4 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/He4.h5
+ Reading Zr90 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Zr90.h5
+ Reading Zr91 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Zr91.h5
+ Reading Zr92 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Zr92.h5
+ Reading Zr94 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Zr94.h5
+ Reading Zr96 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Zr96.h5
+ WARNING: Negative value(s) found on probability table for nuclide Zr96 at 294K
+ WARNING: Negative value(s) found on probability table for nuclide Zr96 at 600K
+ Reading Sn112 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Sn112.h5
+ Reading Sn114 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Sn114.h5
+ Reading Sn115 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Sn115.h5
+ Reading Sn116 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Sn116.h5
+ Reading Sn117 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Sn117.h5
+ Reading Sn118 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Sn118.h5
+ Reading Sn119 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Sn119.h5
+ Reading Sn120 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Sn120.h5
+ Reading Sn122 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Sn122.h5
+ Reading Sn124 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Sn124.h5
+ Reading P31 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/P31.h5
+ Reading S32 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/S32.h5
+ Reading S33 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/S33.h5
+ Reading S34 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/S34.h5
+ Reading S36 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/S36.h5
+ Reading Mo92 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Mo92.h5
+ Reading Mo94 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Mo94.h5
+ Reading Mo95 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Mo95.h5
+ Reading Mo96 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Mo96.h5
+ Reading Mo97 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Mo97.h5
+ Reading Mo98 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Mo98.h5
+ Reading Mo100 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Mo100.h5
+ Reading V50 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/V50.h5
+ Reading V51 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/V51.h5
+ Reading Nb93 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Nb93.h5
+ Reading Cu63 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Cu63.h5
+ Reading Cu65 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Cu65.h5
+ Reading Ca40 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Ca40.h5
+ Reading Ca42 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Ca42.h5
+ Reading Ca43 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Ca43.h5
+ Reading Ca44 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Ca44.h5
+ Reading Ca46 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Ca46.h5
+ Reading Ca48 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Ca48.h5
+ Reading Ti46 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Ti46.h5
+ Reading Ti47 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Ti47.h5
+ Reading Ti48 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Ti48.h5
+ Reading Ti49 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Ti49.h5
+ Reading Ti50 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Ti50.h5
+ Reading Al27 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/Al27.h5
+ Reading U234 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/U234.h5
+ Reading U235 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/U235.h5
+ Reading U238 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/U238.h5
+ Reading U236 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/U236.h5
+ Reading H1 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/H1.h5
+ Reading H2 from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/neutron/H2.h5
+ Reading c_H_in_H2O from
+ /u/af/ao/boteri/nuclear/data/Cross-Section-Lib/OpenMC-Data/Offical-Libraries/end
+ fb-viii.1-hdf5/thermal/c_H_in_H2O.h5
+ Minimum neutron data temperature: 294 K
+ Maximum neutron data temperature: 600 K
+ Preparing distributed cell instances...
+ Reading plot XML file...
+ Writing summary.h5 file...
+ Maximum neutron transport energy: 20000000 eV for O17
+ Initializing source particles...
+
+ ====================>     K EIGENVALUE SIMULATION     <====================
+
+  Bat./Gen.      k            Average k
+  =========   ========   ====================
+        1/1    0.81643
+        2/1    0.96077
+        3/1    0.97302
+        4/1    0.97543
+        5/1    0.97862
+        6/1    0.98236
+        7/1    0.98271
+        8/1    0.98307
+        9/1    0.98426
+       10/1    0.98479
+       11/1    0.98521
+       12/1    0.98652
+       13/1    0.98581
+       14/1    0.98767
+       15/1    0.98742
+       16/1    0.98682
+       17/1    0.98906
+       18/1    0.98791
+       19/1    0.98830
+       20/1    0.98930
+       21/1    0.99056
+       22/1    0.98893
+       23/1    0.99063
+       24/1    0.99048
+       25/1    0.99158
+       26/1    0.99153
+       27/1    0.99051
+       28/1    0.99175
+       29/1    0.99110
+       30/1    0.99186
+       31/1    0.99178
+       32/1    0.99196
+       33/1    0.99149
+       34/1    0.99109
+       35/1    0.99150
+       36/1    0.99258
+       37/1    0.99186
+       38/1    0.99227
+       39/1    0.99297
+       40/1    0.99303
+       41/1    0.99275
+       42/1    0.99355
+       43/1    0.99234
+       44/1    0.99305
+       45/1    0.99335
+       46/1    0.99358
+       47/1    0.99384
+       48/1    0.99332
+       49/1    0.99298
+       50/1    0.99315
+       51/1    0.99323
+       52/1    0.99206
+       53/1    0.99505
+       54/1    0.99177
+       55/1    0.99428
+       56/1    0.99334
+       57/1    0.99329
+       58/1    0.99325
+       59/1    0.99248
+       60/1    0.99325
+       61/1    0.99452
+       62/1    0.99396
+       63/1    0.99388
+       64/1    0.99380
+       65/1    0.99475
+       66/1    0.99431
+       67/1    0.99379
+       68/1    0.99414
+       69/1    0.99396
+       70/1    0.99260
+       71/1    0.99418
+       72/1    0.99453
+       73/1    0.99393
+       74/1    0.99427
+       75/1    0.99404
+       76/1    0.99527
+       77/1    0.99422
+       78/1    0.99431
+       79/1    0.99410
+       80/1    0.99547
+       81/1    0.99343
+       82/1    0.99541
+       83/1    0.99461
+       84/1    0.99332
+       85/1    0.99379
+       86/1    0.99328
+       87/1    0.99314
+       88/1    0.99427
+       89/1    0.99484
+       90/1    0.99443
+       91/1    0.99507
+       92/1    0.99385
+       93/1    0.99430
+       94/1    0.99392
+       95/1    0.99532
+       96/1    0.99488
+       97/1    0.99297
+       98/1    0.99378
+       99/1    0.99430
+      100/1    0.99488
+      101/1    0.99491
+      102/1    0.99509
+      103/1    0.99525
+      104/1    0.99502
+      105/1    0.99498
+      106/1    0.99555
+      107/1    0.99416
+      108/1    0.99477
+      109/1    0.99488
+      110/1    0.99443
+      111/1    0.99373
+      112/1    0.99359
+      113/1    0.99505
+      114/1    0.99535
+      115/1    0.99494
+      116/1    0.99465
+      117/1    0.99416
+      118/1    0.99486
+      119/1    0.99560
+      120/1    0.99399
+      121/1    0.99470
+      122/1    0.99447
+      123/1    0.99462
+      124/1    0.99574
+      125/1    0.99471
+      126/1    0.99538
+      127/1    0.99479
+      128/1    0.99451
+      129/1    0.99512
+      130/1    0.99515
+      131/1    0.99466
+      132/1    0.99466
+      133/1    0.99557
+      134/1    0.99419
+      135/1    0.99478
+      136/1    0.99485
+      137/1    0.99495
+      138/1    0.99570
+      139/1    0.99381
+      140/1    0.99278
+      141/1    0.99515
+      142/1    0.99380
+      143/1    0.99435
+      144/1    0.99415
+      145/1    0.99509
+      146/1    0.99500
+      147/1    0.99471
+      148/1    0.99546
+      149/1    0.99533
+      150/1    0.99397
+      151/1    0.99403
+      152/1    0.99476
+      153/1    0.99550
+      154/1    0.99451
+      155/1    0.99436
+      156/1    0.99483
+      157/1    0.99493
+      158/1    0.99581
+      159/1    0.99368
+      160/1    0.99396
+      161/1    0.99508
+      162/1    0.99530
+      163/1    0.99328
+      164/1    0.99528
+      165/1    0.99527
+      166/1    0.99564
+      167/1    0.99425
+      168/1    0.99557
+      169/1    0.99529
+      170/1    0.99461
+      171/1    0.99441
+      172/1    0.99531
+      173/1    0.99459
+      174/1    0.99453
+      175/1    0.99477
+      176/1    0.99427
+      177/1    0.99451
+      178/1    0.99456
+      179/1    0.99504
+      180/1    0.99510
+      181/1    0.99439
+      182/1    0.99485
+      183/1    0.99504
+      184/1    0.99510
+      185/1    0.99521
+      186/1    0.99416
+      187/1    0.99545
+      188/1    0.99358
+      189/1    0.99405
+      190/1    0.99490
+      191/1    0.99323
+      192/1    0.99464
+      193/1    0.99535
+      194/1    0.99582
+      195/1    0.99512
+      196/1    0.99300
+      197/1    0.99558
+      198/1    0.99582
+      199/1    0.99414
+      200/1    0.99351
+      201/1    0.99466
+      202/1    0.99559
+      203/1    0.99446
+      204/1    0.99371
+      205/1    0.99495
+      206/1    0.99524
+      207/1    0.99523
+      208/1    0.99480
+      209/1    0.99503
+      210/1    0.99556
+      211/1    0.99493
+      212/1    0.99476
+      213/1    0.99482
+      214/1    0.99488
+      215/1    0.99444
+      216/1    0.99475
+      217/1    0.99494
+      218/1    0.99602
+      219/1    0.99519
+      220/1    0.99478
+      221/1    0.99345
+      222/1    0.99399
+      223/1    0.99484
+      224/1    0.99488
+      225/1    0.99430
+      226/1    0.99543
+      227/1    0.99579
+      228/1    0.99502
+      229/1    0.99543
+      230/1    0.99450
+      231/1    0.99507
+      232/1    0.99315
+      233/1    0.99475
+      234/1    0.99455
+      235/1    0.99504
+      236/1    0.99518
+      237/1    0.99554
+      238/1    0.99480
+      239/1    0.99509
+      240/1    0.99412
+      241/1    0.99427
+      242/1    0.99453
+      243/1    0.99564
+      244/1    0.99479
+      245/1    0.99490
+      246/1    0.99525
+      247/1    0.99530
+      248/1    0.99493
+      249/1    0.99497
+      250/1    0.99363
+      251/1    0.99451
+      252/1    0.99568    0.99510 +/- 0.00058
+      253/1    0.99460    0.99493 +/- 0.00038
+      254/1    0.99327    0.99452 +/- 0.00049
+      255/1    0.99521    0.99465 +/- 0.00041
+      256/1    0.99457    0.99464 +/- 0.00033
+      257/1    0.99423    0.99458 +/- 0.00029
+      258/1    0.99398    0.99451 +/- 0.00026
+      259/1    0.99473    0.99453 +/- 0.00023
+      260/1    0.99469    0.99455 +/- 0.00021
+      261/1    0.99350    0.99445 +/- 0.00021
+      262/1    0.99517    0.99451 +/- 0.00020
+      263/1    0.99461    0.99452 +/- 0.00018
+      264/1    0.99519    0.99457 +/- 0.00018
+      265/1    0.99470    0.99457 +/- 0.00017
+      266/1    0.99568    0.99464 +/- 0.00017
+      267/1    0.99550    0.99469 +/- 0.00017
+      268/1    0.99389    0.99465 +/- 0.00016
+      269/1    0.99513    0.99467 +/- 0.00016
+      270/1    0.99337    0.99461 +/- 0.00016
+      271/1    0.99417    0.99459 +/- 0.00016
+      272/1    0.99448    0.99458 +/- 0.00015
+      273/1    0.99591    0.99464 +/- 0.00015
+      274/1    0.99485    0.99465 +/- 0.00015
+      275/1    0.99326    0.99459 +/- 0.00015
+      276/1    0.99563    0.99463 +/- 0.00015
+      277/1    0.99510    0.99465 +/- 0.00015
+      278/1    0.99506    0.99467 +/- 0.00014
+      279/1    0.99420    0.99465 +/- 0.00014
+      280/1    0.99528    0.99467 +/- 0.00013
+      281/1    0.99397    0.99465 +/- 0.00013
+      282/1    0.99481    0.99465 +/- 0.00013
+      283/1    0.99502    0.99466 +/- 0.00012
+      284/1    0.99437    0.99466 +/- 0.00012
+      285/1    0.99510    0.99467 +/- 0.00012
+      286/1    0.99336    0.99463 +/- 0.00012
+      287/1    0.99491    0.99464 +/- 0.00012
+      288/1    0.99448    0.99464 +/- 0.00011
+      289/1    0.99447    0.99463 +/- 0.00011
+      290/1    0.99449    0.99463 +/- 0.00011
+      291/1    0.99502    0.99464 +/- 0.00011
+      292/1    0.99506    0.99465 +/- 0.00010
+      293/1    0.99439    0.99464 +/- 0.00010
+      294/1    0.99374    0.99462 +/- 0.00010
+      295/1    0.99474    0.99462 +/- 0.00010
+      296/1    0.99557    0.99464 +/- 0.00010
+      297/1    0.99486    0.99465 +/- 0.00010
+      298/1    0.99591    0.99468 +/- 0.00010
+      299/1    0.99536    0.99469 +/- 0.00010
+      300/1    0.99374    0.99467 +/- 0.00010
+      301/1    0.99479    0.99467 +/- 0.00010
+      302/1    0.99448    0.99467 +/- 0.00009
+      303/1    0.99488    0.99467 +/- 0.00009
+      304/1    0.99539    0.99469 +/- 0.00009
+      305/1    0.99497    0.99469 +/- 0.00009
+      306/1    0.99561    0.99471 +/- 0.00009
+      307/1    0.99512    0.99471 +/- 0.00009
+      308/1    0.99443    0.99471 +/- 0.00009
+      309/1    0.99484    0.99471 +/- 0.00009
+      310/1    0.99528    0.99472 +/- 0.00009
+      311/1    0.99439    0.99472 +/- 0.00008
+      312/1    0.99577    0.99473 +/- 0.00008
+      313/1    0.99443    0.99473 +/- 0.00008
+      314/1    0.99491    0.99473 +/- 0.00008
+      315/1    0.99522    0.99474 +/- 0.00008
+      316/1    0.99539    0.99475 +/- 0.00008
+      317/1    0.99592    0.99477 +/- 0.00008
+      318/1    0.99445    0.99476 +/- 0.00008
+      319/1    0.99574    0.99478 +/- 0.00008
+      320/1    0.99494    0.99478 +/- 0.00008
+      321/1    0.99395    0.99477 +/- 0.00008
+      322/1    0.99438    0.99476 +/- 0.00008
+      323/1    0.99465    0.99476 +/- 0.00008
+      324/1    0.99374    0.99475 +/- 0.00008
+      325/1    0.99483    0.99475 +/- 0.00008
+      326/1    0.99442    0.99474 +/- 0.00007
+      327/1    0.99486    0.99474 +/- 0.00007
+      328/1    0.99611    0.99476 +/- 0.00008
+      329/1    0.99498    0.99476 +/- 0.00007
+      330/1    0.99426    0.99476 +/- 0.00007
+      331/1    0.99533    0.99476 +/- 0.00007
+      332/1    0.99427    0.99476 +/- 0.00007
+      333/1    0.99526    0.99476 +/- 0.00007
+      334/1    0.99462    0.99476 +/- 0.00007
+      335/1    0.99455    0.99476 +/- 0.00007
+      336/1    0.99524    0.99477 +/- 0.00007
+      337/1    0.99597    0.99478 +/- 0.00007
+      338/1    0.99440    0.99478 +/- 0.00007
+      339/1    0.99557    0.99478 +/- 0.00007
+      340/1    0.99574    0.99479 +/- 0.00007
+      341/1    0.99466    0.99479 +/- 0.00007
+      342/1    0.99480    0.99479 +/- 0.00007
+      343/1    0.99481    0.99479 +/- 0.00007
+      344/1    0.99582    0.99480 +/- 0.00007
+      345/1    0.99416    0.99480 +/- 0.00007
+      346/1    0.99486    0.99480 +/- 0.00007
+      347/1    0.99417    0.99479 +/- 0.00007
+      348/1    0.99414    0.99479 +/- 0.00007
+      349/1    0.99477    0.99479 +/- 0.00006
+      350/1    0.99454    0.99478 +/- 0.00006
+ Creating state point statepoint.350.h5...
+
+ =======================>     TIMING STATISTICS     <=======================
+
+ Total time for initialization     = 1.1390e+01 seconds
+   Reading cross sections          = 1.1205e+01 seconds
+ Total time in simulation          = 1.0997e+04 seconds
+   Time in transport only          = 1.0799e+04 seconds
+   Time in inactive batches        = 7.9202e+03 seconds
+   Time in active batches          = 3.0769e+03 seconds
+   Time synchronizing fission bank = 1.5589e+02 seconds
+     Sampling source sites         = 1.4015e+02 seconds
+     SEND/RECV source sites        = 1.5735e+01 seconds
+   Time accumulating tallies       = 2.2061e-04 seconds
+   Time writing statepoints        = 1.6503e-01 seconds
+ Total time for finalization       = 3.9430e-06 seconds
+ Total time elapsed                = 1.1009e+04 seconds
+ Calculation Rate (inactive)       = 126259 particles/second
+ Calculation Rate (active)         = 130001 particles/second
+
+ ============================>     RESULTS     <============================
+
+ k-effective (Collision)     = 0.99478 +/- 0.00006
+ k-effective (Track-length)  = 0.99478 +/- 0.00006
+ k-effective (Absorption)    = 0.99478 +/- 0.00005
+ Combined k-effective        = 0.99478 +/- 0.00004
+ Leakage Fraction            = 0.00005 +/- 0.00000
+
+=== OpenMC run started at: 20:44:38.116812 ===
+=== OpenMC run finished at: 2026-05-28 23:48:07.888979 ===
+Job has finished!
