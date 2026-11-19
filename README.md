@@ -18,4 +18,4 @@ B. R. Oteri, B. Forget, A. Osborne, & J. Liang. (2026, April 23). A Systematic R
 
 __NSE paper with benchmark results for ENDF/B-VIII.1 cross section library:__
 
-B. R. Oteri, B. Forget, A. Osborne, & J. Liang. (2026). Uncertainty Analysis and Re-evaluation of BEAVRS Benchmark with OpenMC and ENDF/B-VIII.1. 
+B. Oteri, B. Forget, A. Osborne, and J. Liang, “Uncertainty Analysis and Reevaluation of BEAVRS Benchmark With OpenMC and ENDF/B-VIII.1,” Nuclear Science and Engineering, pp. 1–11, Nov. 2026, doi: 10.1080/00295639.2026.2755673.
